@@ -26,11 +26,11 @@ import casinoCity from "../../../public/assets/images/eligieron/casino_city.png"
 import freeSpin from "../../../public/assets/images/eligieron/giros.png";
 
 export const navLink = [
-  { tittle: "Hogar", path: "/" },
-  { tittle: "Misión", path: "/" },
-  { tittle: "Tragamonedas", path: "/" },
-  { tittle: "Por qué elegirnos", path: "/" },
-  { tittle: "Ofertas", path: "/" },
+  { tittle: "Hogar", path: "#home" },
+  { tittle: "Misión", path: "#mission" },
+  { tittle: "Tragamonedas", path: "#solts" },
+  { tittle: "Por qué elegirnos", path: "#choose" },
+  { tittle: "Ofertas", path: "#offer" },
 ];
 export const marcaCard = [
   {
@@ -250,4 +250,8 @@ export const footerLinks = [
     ],
   },
 ];
-export const footerIcon = [<Instagram />, <FaceBook />, <LinkedIn />];
+export const footerIcon = [
+  { link: "https://www.instagram.com/", icon: <Instagram /> },
+  { link: "https://www.facebook.com/", icon: <FaceBook /> },
+  { link: "https://www.linkedin.com/feed/", icon: <LinkedIn /> },
+];

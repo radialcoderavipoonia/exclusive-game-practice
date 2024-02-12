@@ -5,7 +5,7 @@ import Image from "next/image"; // Importing Image component from Next.js
 // CasinoNight component
 const CasinoNight = () => {
   return (
-    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-20"> {/* Container */}
+    <div id="choose" className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 md:py-20 pb-20 sm:mt-0 mt-[-50px]"> {/* Container */}
       <div className="flex md:flex-row flex-col-reverse items-center md:gap-14 gap-8"> {/* Flex container */}
         <div className="max-w-[526px]"> {/* Text content */}
           <h2 className="text-dark-green md:text-start text-center leading-[100%] font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] mb-0">

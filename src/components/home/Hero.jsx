@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <>
       {/* Background image */}
-      <div className="bg-[url('/assets/images/background/hero_image.png')] bg-cover bg-no-repeat">
+      <div id="home" className="bg-[url('/assets/images/background/hero_image.png')] bg-cover bg-no-repeat">
         {/* Navigation bar */}
         <NavBar />
         {/* Hero content */}

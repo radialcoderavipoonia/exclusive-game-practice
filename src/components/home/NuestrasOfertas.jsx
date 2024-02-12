@@ -6,7 +6,7 @@ import CommonButton from "../common/CommonButton"; // Importing a custom button 
 // Define the NuestrasOfertas component
 const NuestrasOfertas = () => {
   return (
-    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-12">
+    <div id="offer" className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-12">
       {/* Title */}
       <h2 className="text-white text-center font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] mb-0 leading-[100%]">
         Nuestras ofertas

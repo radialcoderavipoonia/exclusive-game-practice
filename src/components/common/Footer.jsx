@@ -32,11 +32,11 @@ const Footer = () => {
             <div className="flex gap-3 items-center">
               {footerIcon.map((value, index) => (
                 <Link
-                  href="/"
+                  href={value.link} target="_blank"
                   className=" hover:scale-90 transition-all ease-linear duration-200"
                   key={index}
                 >
-                  {value}
+                  {value.icon}
                 </Link>
               ))}
             </div>

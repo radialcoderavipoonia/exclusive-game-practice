@@ -1,6 +1,11 @@
 /* COMMON CSS  */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+
+/* universal  */
+*{
+    scroll-behavior: smooth !important;
+}
 /* nav bar bg  */
 .nav_bar_bg{
     background: rgba(255, 255, 255, 0.1);

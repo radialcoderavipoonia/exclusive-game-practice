@@ -7,7 +7,7 @@ import CommonButtonGradient from "../common/CommonButtonGradient"; // Importing 
 // Define the Slots component
 const Slots = () => {
   return (
-    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 sm:py-14 pb-14 pt-6">
+    <div id="solts" className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 sm:py-14 pb-14 pt-6">
       {/* Main content container */}
       <div className="max-w-[944px] mx-auto px-3">
         {/* Title */}
