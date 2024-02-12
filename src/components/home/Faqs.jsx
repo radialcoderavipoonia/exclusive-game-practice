@@ -73,7 +73,7 @@ const Faqs = () => {
                 </h2>
               </AccordionHeader>
               <AccordionBody className="pb-4">
-                <p className="font-inter font-medium md:lg:text-base text-sm text-sm max-w-[740px] text-white opacity-70 leading-[150%]">
+                <p className="font-inter font-medium md:lg:text-base text-sm max-w-[740px] text-white opacity-70 leading-[150%]">
                   {value.content}
                 </p>
               </AccordionBody>

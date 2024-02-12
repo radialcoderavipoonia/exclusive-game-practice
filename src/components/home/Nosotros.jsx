@@ -1,18 +1,23 @@
 import React from "react";
-import { eligieron } from "../common/Helper";
-import Image from "next/image";
-import CommonButton from "../common/CommonButton";
+import { eligieron } from "../common/Helper"; // Importing necessary data
+import Image from "next/image"; // Importing the Image component from Next.js
+import CommonButton from "../common/CommonButton"; // Importing a custom button component
 
+// Define the Nosotros component
 const Nosotros = () => {
   return (
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 md:py-24 py-20">
+      {/* Title */}
       <h2 className="text-white text-center font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] leading-[100%] lg:pb-0 pb-2">
         Ellos eligieron apostar con nosotros
       </h2>
+      {/* Container for client images */}
       <div className="flex justify-center gap-3 sm:gap-6 items-center flex-wrap pt-9">
+        {/* Mapping through the clients data */}
         {eligieron.map((value, index) => {
           return (
             <div key={index} className="relative group lg:mt-6">
+              {/* Client image */}
               <Image
                 src={value.image}
                 width={364}
@@ -20,6 +25,7 @@ const Nosotros = () => {
                 alt="slots cards images"
                 className="lg:w-[364px] lg:h-[265px] sm:w-[264px] sm:h-[165px]"
               />
+              {/* Overlay image */}
               <Image
                 src="/assets/images/slots/background_layer.png"
                 width={364}
@@ -27,6 +33,7 @@ const Nosotros = () => {
                 alt="slots cards layer"
                 className="absolute top-0 start-0 w-full h-full lg:w-[364px] lg:h-[265px] z-10 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out"
               />
+              {/* Button */}
               <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
                 <CommonButton content="Rcasinovip" />
               </div>
@@ -34,6 +41,7 @@ const Nosotros = () => {
           );
         })}
       </div>
+      {/* Additional information (visible on larger screens) */}
       <div className="text-center pt-[38px] lg:block hidden">
         <p className="text-white lg:text-base text-sm font-inter font-semibold ">
           Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
@@ -46,6 +54,7 @@ const Nosotros = () => {
           Elige ganar. Elige exclusive game.
         </p>
       </div>
+      {/* Additional information (visible on smaller screens) */}
       <p className="text-white lg:text-base text-sm font-inter font-semibold lg:hidden block pt-8 text-center px-3">
         Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
         de emocionantes experiencias de juego. Ahora, la próxima apuesta está en
@@ -55,4 +64,4 @@ const Nosotros = () => {
   );
 };
 
-export default Nosotros;
+export default Nosotros; // Export the Nosotros component
