@@ -36,10 +36,9 @@ const NavBar = () => {
         <ul className="hidden lg:flex space-x-4">
           {navLink.map((link, index) => {
             return (
-              <li>
+              <li key={index}>
                 <Link
                   className="text-white font-inter font-medium text-base opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
-                  key={index}
                   href={link.path}
                 >
                   {link.tittle}
