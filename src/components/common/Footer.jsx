@@ -42,10 +42,10 @@ const Footer = () => {
             </div>
           </div>
           {/* Footer links */}
-          <div className="xl:w-8/12 w-full flex flex-wrap xl:mt-0 mt-5">
+          <div className="xl:w-8/12 w-full md:flex-row flex-col flex xl:mt-0 mt-5">
             {footerLinks.map((value, index) => (
               <ul
-                className="lg::w-4/12 sm:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 xl:mb-0 mb-5"
+                className="lg:w-4/12 sm:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 xl:mb-0 mb-5"
                 key={index}
               >
                 <li className=" font-inter font-bold lg:text-base text-sm text-white mb-2">
