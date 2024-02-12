@@ -26,7 +26,7 @@ const Vivo = () => {
               />
               {/* Hover effect layer */}
               <Image
-                src="/assets/images/vivo/bg_layer.png"
+                src="/assets/images/vivo/bg_layer.webp"
                 width={364}
                 height={256}
                 alt="slots cards layer"

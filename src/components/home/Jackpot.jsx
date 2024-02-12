@@ -8,7 +8,7 @@ const Jackpot = () => {
       <div className="flex md:flex-row flex-col justify-between items-center xl:gap-10 gap-6">
         {/* Jackpot Image */}
         <Image
-          src="/assets/images/jackpot/jackpot.png"
+          src="/assets/images/jackpot/jackpot.webp"
           width={557}
           height={439}
           alt="jackpot images"

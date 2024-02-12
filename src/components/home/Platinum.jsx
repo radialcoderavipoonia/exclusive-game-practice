@@ -8,7 +8,7 @@ const Platinum = () => {
   return (
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 xl:py-12 py-6">
       {/* Background container */}
-      <div className="lg:bg-[url('/assets/images/background/platinum_image.png')] bg-[#092423] lg:bg-dark-green rounded-2xl lg:border-0 border-[#839090] border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat">
+      <div className="lg:bg-[url('/assets/images/background/platinum_image.webp')] bg-[#092423] lg:bg-dark-green rounded-2xl lg:border-0 border-[#839090] border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat">
         <div className="flex md:flex-row flex-col-reverse items-center lg:gap-20 lg:px-12 px-6 py-12">
           {/* Right side */}
           <div className="md:mt-0 mt-8">
@@ -40,7 +40,7 @@ const Platinum = () => {
           </div>
           {/* Left side */}
           <Image
-            src="/assets/images/platnium/platnium.png"
+            src="/assets/images/platnium/platnium.webp"
             width={602}
             height={419}
             alt="platinum image"

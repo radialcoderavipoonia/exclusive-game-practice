@@ -14,7 +14,7 @@ const Elegirnos = () => {
       <div className="flex md:flex-row flex-col items-center xl:gap-11 gap-8">
         {/* Image component with specific source, dimensions, alt text, and styling */}
         <Image
-          src="/assets/images/elegirnos/tripple_seven.png"
+          src="/assets/images/elegirnos/tripple_seven.webp"
           width={558}
           height={514}
           alt="tripple seven images"

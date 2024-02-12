@@ -23,7 +23,7 @@ const CasinoNight = () => {
           </div>
         </div>
         <Image
-          src="/assets/images/casino_night/casino_night.png" // Image source
+          src="/assets/images/casino_night/casino_night.webp" // Image source
           width={558}
           height={439}
           alt="casino night images" // Image alt text

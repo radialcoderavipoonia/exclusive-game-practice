@@ -7,7 +7,7 @@ const Nuestra = () => {
   return (
     <>
       {/* Background container */}
-      <div id="mission" className="bg-[url('/assets/images/background/nuestra_image.png')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px]">
+      <div id="mission" className="bg-[url('/assets/images/background/nuestra_image.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px]">
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
           <div className="xl:pt-[74px] lg:pb-[243px] md:pb-44 pb-44">
             {/* Main content */}

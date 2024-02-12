@@ -27,7 +27,7 @@ const Nosotros = () => {
               />
               {/* Overlay image */}
               <Image
-                src="/assets/images/slots/background_layer.png"
+                src="/assets/images/slots/background_layer.webp"
                 width={364}
                 height={265}
                 alt="slots cards layer"

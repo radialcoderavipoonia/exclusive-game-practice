@@ -12,18 +12,18 @@ import {
   RightIcon,
   Telephone,
 } from "./Icons";
-import jetx from "../../../public/assets/images/slots/jetx.png";
-import joker from "../../../public/assets/images/slots/joker.png";
-import star from "../../../public/assets/images/slots/star.png";
-import luckyFortune from "../../../public/assets/images/slots/lucky_fortune.png";
-import helloSummer from "../../../public/assets/images/slots/hello_summer.png";
-import casino from "../../../public/assets/images/slots/casino.png";
-import ezugi from "../../../public/assets/images/vivo/ezugi.png";
-import roulette from "../../../public/assets/images/vivo/roulette.png";
-import betting from "../../../public/assets/images/vivo/betting.png";
-import rcasino from "../../../public/assets/images/eligieron/r_casino.png";
-import casinoCity from "../../../public/assets/images/eligieron/casino_city.png";
-import freeSpin from "../../../public/assets/images/eligieron/giros.png";
+import jetx from "../../../public/assets/images/slots/jetx.webp";
+import joker from "../../../public/assets/images/slots/joker.webp";
+import star from "../../../public/assets/images/slots/star.webp";
+import luckyFortune from "../../../public/assets/images/slots/lucky_fortune.webp";
+import helloSummer from "../../../public/assets/images/slots/hello_summer.webp";
+import casino from "../../../public/assets/images/slots/casino.webp";
+import ezugi from "../../../public/assets/images/vivo/ezugi.webp";
+import roulette from "../../../public/assets/images/vivo/roulette.webp";
+import betting from "../../../public/assets/images/vivo/betting.webp";
+import rcasino from "../../../public/assets/images/eligieron/r_casino.webp";
+import casinoCity from "../../../public/assets/images/eligieron/casino_city.webp";
+import freeSpin from "../../../public/assets/images/eligieron/giros.webp";
 
 export const navLink = [
   { tittle: "Hogar", path: "#home" },
