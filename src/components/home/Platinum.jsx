@@ -10,7 +10,7 @@ const Platinum = () => {
       <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 xl:py-12 py-6">
         {/* Background container */}
         <div
-          className="lg:bg-[url('/assets/images/background/platinum_image.webp')] bg-[#092423] lg:bg-dark-green rounded-2xl lg:border-0 border-[#839090] border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat"
+          className="bg-nuestrasOfertasBg rounded-2xl border-[#839090] border-[1px]"
           data-aos="fade-up"
           data-aos-duration="800"
         >
@@ -22,7 +22,7 @@ const Platinum = () => {
                 Platinum
               </h3>
               {/* Offer description */}
-              <p className="font-inter text-white md:text-start text-center font-medium lg:text-base text-sm max-w-[364px] lg:pt-4 pt-3 mb-0">
+              <p className="font-inter text-gray-dark md:text-start text-center font-medium lg:text-base text-sm max-w-[364px] lg:pt-4 pt-3 mb-0">
                 Diseño totalmente personalizado. Contáctanos para un
                 presupuesto.
               </p>
@@ -35,7 +35,7 @@ const Platinum = () => {
                 <span>
                   <RightIcon />
                 </span>
-                <p className="font-inter font-medium lg:text-base text-sm text-white ">
+                <p className="font-inter font-medium lg:text-base text-sm text-gray-dark">
                   Personalizable
                 </p>
               </div>

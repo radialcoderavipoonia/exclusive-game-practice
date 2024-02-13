@@ -75,71 +75,71 @@ export const slotsCard = [
 export const potenciando = [
   {
     rightIcon: <RightIcon />,
-    para: "Tecnología HTML5",
+    title: "Tecnología HTML5",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Versión PC y móvil",
+    title: "Versión PC y móvil",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Control de RTP (controlás qué porcentaje pagar)",
+    title: "Control de RTP (controlás qué porcentaje pagar)",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Bonos editables, happy hours, Jackpots, códigos  promocionales.",
+    title: "Bonos editables, happy hours, Jackpots, códigos  promocionales.",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Aplicación para android y windows de regalo.",
+    title: "Aplicación para android y windows de regalo.",
   },
 ];
 export const ofertas = [
   {
     rightIcon: <RightIcon />,
-    para:
+    description:
       "Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Control de RTP (controlás qué porcentaje pagar)",
+    description: "Control de RTP (controlás qué porcentaje pagar)",
   },
   {
     rightIcon: <RightIcon />,
-    para:
+    description:
       "Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalo",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Aplicación para Android y Windows de regalo.",
+    description: "Aplicación para Android y Windows de regalo.",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Tiempo de creación 2 a 3 semanas",
+    description: "Tiempo de creación 2 a 3 semanas",
   },
 ];
 export const playingGames = [
   {
     rightIcon: <RightIcon />,
-    para:
+    description:
       "Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Control de RTP (controlás qué porcentaje pagar)",
+    description: "Control de RTP (controlás qué porcentaje pagar)",
   },
   {
     rightIcon: <RightIcon />,
-    para:
+    description:
       "Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalo",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Aplicación para Android y Windows de regalo.",
+    description: "Aplicación para Android y Windows de regalo.",
   },
   {
     rightIcon: <RightIcon />,
-    para: "Tiempo de creación 2 a 3 semanas",
+    description: "Tiempo de creación 2 a 3 semanas",
   },
 ];
 export const juegos = [
@@ -199,43 +199,43 @@ export const faqData = [
     duration: "500",
     title:
       "¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
     duration: "700",
-    tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
-    content:
+    title: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
     duration: "900",
-    tittle:
+    title:
       " ¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
     duration: "1100",
-    tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
-    content:
+    title: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
     duration: "1300",
-    tittle: "¿Qué métodos de pago aceptan?",
-    content:
+    title: "¿Qué métodos de pago aceptan?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
     duration: "1500",
-    tittle: "¿Puedo probar sus juegos antes de comprometerme?",
-    content:
+    title: "¿Puedo probar sus juegos antes de comprometerme?",
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
 ];

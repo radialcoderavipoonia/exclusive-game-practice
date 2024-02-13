@@ -17,7 +17,7 @@ const Vivo = () => {
           return (
             <div
               key={index}
-              className="relative group"
+              className="relative group/items"
               data-aos={value.fade}
               data-aos-delay={value.delay}
             >
@@ -35,10 +35,10 @@ const Vivo = () => {
                 width={364}
                 height={256}
                 alt="slots cards layer"
-                className="absolute top-0 start-0 xl:w-[364px] xl:h-[256px] lg:w-[264px] lg:h-[165px] sm:w-[220px] sm:h-[150px] z-10 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out"
+                className="absolute top-0 start-0 xl:w-[364px] xl:h-[256px] lg:w-[264px] lg:h-[165px] sm:w-[220px] sm:h-[150px] z-10 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out"
               />
               {/* Button */}
-              <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
+              <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out">
                 <CommonButton content="Reproducir ahora" />
               </div>
             </div>

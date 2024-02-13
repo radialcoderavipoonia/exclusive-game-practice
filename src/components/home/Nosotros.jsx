@@ -18,7 +18,7 @@ const Nosotros = () => {
           return (
             <div
               key={index}
-              className="relative group lg:mt-6"
+              className="relative group/items lg:mt-6"
               data-aos={value.fade}
               data-aos-delay={value.delay}
             >
@@ -32,14 +32,14 @@ const Nosotros = () => {
               />
               {/* Overlay image */}
               <Image
-                src="/assets/images/slots/background_layer.webp"
+                src="/assets/images/vivo/bg_layer.webp"
                 width={364}
                 height={265}
                 alt="slots cards layer"
-                className="absolute top-0 start-0 w-full h-full lg:w-[364px] lg:h-[265px] z-10 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out"
+                className="absolute top-0 start-0 w-full h-full lg:w-[364px] lg:h-[265px] z-10 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out"
               />
               {/* Button */}
-              <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
+              <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out">
                 <CommonButton content="Rcasinovip" />
               </div>
             </div>

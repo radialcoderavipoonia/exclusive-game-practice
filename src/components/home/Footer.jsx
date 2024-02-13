@@ -11,8 +11,9 @@ const Footer = () => {
   return (
     <div className="bg-black relative overflow-hidden">
       {/* Decorative circles */}
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] bottom-[-50%] end-[-10%] translate-y-[-50%] pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] top-[-50%] start-[-10%] translate-y-[-50%] pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[58px] bottom-[0%] end-[-6%] translate-y-[-50%] pointer-events-none"></div>
+      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[58px] bottom-[-30%] start-[-6%] translate-y-[-50%] pointer-events-none"></div>
+
       {/* Container */}
       <div className="container max-w-[1152px] mx-auto px-3 md:pt-16 sm:pt-10 pt-7 sm:pb-10 pb-4">
         <div className="flex flex-wrap">
@@ -44,7 +45,7 @@ const Footer = () => {
             </div>
           </div>
           {/* Footer links */}
-          <div className="xl:w-8/12 w-full md:flex-row flex-col flex xl:mt-0 mt-5">
+          <div className="xl:w-8/12 w-full  flex-wrap md:flex-nowrap flex xl:mt-0 mt-5">
             {footerLinks.map((value, index) => (
               <ul
                 className="lg:w-4/12 sm:w-6/12 flex flex-col w-full items-start gap-2 xl:ps-10 xl:mb-0 mb-5"
@@ -53,17 +54,19 @@ const Footer = () => {
                 <li className=" font-inter font-bold lg:text-base text-sm text-white mb-2">
                   {value.tittle}
                 </li>
-                {value.link.map((subValue, subIndex) => (
-                  <Link
-                    href={subValue.path}
-                    rel="noopener noreferrer"
-                    key={subIndex}
-                  >
-                    <li className="flex items-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all">
-                      {subValue.icon} {subValue.content}
-                    </li>
-                  </Link>
-                ))}
+                <li>
+                  {value.link.map((subValue, subIndex) => (
+                    <Link
+                      href={subValue.path}
+                      rel="noopener noreferrer"
+                      key={subIndex}
+                    >
+                      <li className="flex items-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all">
+                        {subValue.icon} {subValue.content}
+                      </li>
+                    </Link>
+                  ))}
+                </li>
               </ul>
             ))}
           </div>

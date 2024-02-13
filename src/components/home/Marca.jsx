@@ -26,7 +26,7 @@ const Marca = () => {
                   {value.title}
                 </p>
                 {/* Brand attribute description */}
-                <p className="text-center font-inter font-medium lg:text-base text-sm text-dark-green pt-[10px] mb-0" data-aos="fade-up" data-aos-delay="200">
+                <p className="text-center font-inter font-medium lg:text-base text-sm text-[#334349] pt-[10px] mb-0" data-aos="fade-up" data-aos-delay="200">
                   {value.description}
                 </p>
               </div>

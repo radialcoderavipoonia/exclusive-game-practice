@@ -18,7 +18,7 @@ const Luxury = () => {
             Luxury
           </h2>
           {/* Description */}
-          <p className="lg:pt-4 pt-3 text-center font-inter font-medium lg:text-base text-sm text-white">
+          <p className="lg:pt-4 pt-3 text-center font-inter font-medium lg:text-base text-sm text-gray-dark">
             lleva tu experiencia de juego al siguiente nivel. Con todas las
             características de la versión Silver y la potencia adicional de la
             tecnología React .
@@ -33,8 +33,8 @@ const Luxury = () => {
               return (
                 <div key={index} className="flex gap-2 items-start pt-3">
                   <p>{value.rightIcon}</p>
-                  <p className="text-white text-center font-inter mx-auto font-medium lg:text-base text-sm mb-0">
-                    {value.para}
+                  <p className="text-gray-dark text-center font-inter mx-auto font-medium lg:text-base text-sm mb-0">
+                    {value.description  }
                   </p>
                 </div>
               );

@@ -20,7 +20,7 @@ const Jackpot = () => {
             Potenciando sus elecciones
           </h2>
           {/* Subheading */}
-          <p className="lg:pt-4 pt-3 mb-0 text-white md:text-start text-center font-inter font-medium lg:text-base text-sm">
+          <p className="lg:pt-4 pt-3 mb-0 text-gray-dark md:text-start text-center font-inter font-medium lg:text-base text-sm">
             Con Exclusive Game lo mejor está de tu lado.
           </p>
           {/* List of Features */}
@@ -29,15 +29,15 @@ const Jackpot = () => {
               return (
                 <div key={index} className="flex gap-2 md:justify-start justify-center items-start pt-3">
                   <p>{value.rightIcon}</p>
-                  <p className="text-white font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
-                    {value.para}
+                  <p className="text-gray-dark font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
+                    {value.title}
                   </p>
                 </div>
               );
             })}
           </div>
           {/* Additional Information */}
-          <p className="pt-6 mb-0 text-white md:text-start text-center font-inter font-medium lg:text-base text-sm">
+          <p className="pt-6 mb-0 text-gray-dark md:text-start text-center font-inter font-medium lg:text-base text-sm">
             Te reintegramos todo lo invertido en fichas en la moneda que elijas.
           </p>
         </div>

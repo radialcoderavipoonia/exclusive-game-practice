@@ -18,10 +18,12 @@ const NuestrasOfertas = () => {
         </p>
         {/* Main content */}
         <div
-          className="xl:mt-[60px] mt-4 lg:bg-[url('/assets/images/background/nuestras_image.webp')] bg-[#092423] lg:bg-dark-green rounded-2xl lg:border-0 border-[#839090] border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat"
+          className="xl:mt-[60px] bg-nuestrasOfertasBg mt-4 rounded-2xl border-[#839090] border-[1px] relative z-30"
           data-aos="fade-up"
           data-aos-duration="800"
         >
+          {/* shadow circle  */}
+          <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[48px] top-[30%] start-[10%] translate-y-[-50%] pointer-events-none lg:block hidden"></div>
           <div className="flex md:flex-row flex-col lg:pt-14 lg:pb-8 py-8 lg:px-10 px-4 items-center lg:gap-[22px] gap-3">
             {/* Left side */}
             <div className="relative">
@@ -44,7 +46,7 @@ const NuestrasOfertas = () => {
                 Silver
               </h3>
               {/* Offer description */}
-              <p className="font-inter font-medium lg:pt-4 pt-3 md:text-start text-center mb-0 lg:text-base text-sm text-white">
+              <p className="font-inter font-medium lg:pt-4 pt-3 md:text-start text-center mb-0 lg:text-base text-sm text-gray-dark">
                 Diseño predeterminado, atractivo y fácil de navegar, tecnología
                 HTLM5.
               </p>
@@ -63,8 +65,8 @@ const NuestrasOfertas = () => {
                       {/* Icon */}
                       <p>{value.rightIcon}</p>
                       {/* Feature description */}
-                      <p className="text-white font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
-                        {value.para}
+                      <p className="text-gray-dark font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
+                        {value.description}
                       </p>
                     </div>
                   );

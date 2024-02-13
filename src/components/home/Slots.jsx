@@ -18,7 +18,7 @@ const Slots = () => {
           Slots
         </h2>
         {/* Description */}
-        <p className="lg:pt-4 pt-3 mb-0 font-inter font-medium lg:text-base text-sm text-dark-green text-center">
+        <p className="lg:pt-4 pt-3 mb-0 font-inter font-medium lg:text-base text-sm text-[#334349] text-center">
           En Exclusive Games, ofrecemos una selección de más de 600 juegos de
           los principales desarrolladores, como Aristocrat, Amatic, EGT,
           Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja
@@ -30,7 +30,7 @@ const Slots = () => {
       {/* Slots cards */}
       <div className="lg:pt-9 pt-8">
         <div
-          className="flex md:justify-center justify-between md:gap-6 items-center flex-wrap"
+          className="flex md:justify-center sm:justify-between justify-center md:gap-6 items-center flex-wrap"
           data-aos="fade-up"
           data-aos-delay="100"
         >
@@ -38,7 +38,7 @@ const Slots = () => {
             return (
               <div
                 key={index}
-                className="relative group mt-6 md:mt-0"
+                className="relative group/items mt-6 md:mt-0"
                 data-aos="zoom-in"
                 data-aos-delay="200"
               >
@@ -48,18 +48,18 @@ const Slots = () => {
                   width={364}
                   height={265}
                   alt="slots cards images"
-                  className="xl:w-[364px] xl:h-[265px] sm:w-[264px] sm:h-[165px]"
+                  className="xl:w-[364px] xl:h-[265px] sm:w-[264px] sm:h-[165px] border-[2px] border-transparent"
                 />
                 {/* Hover effect layer */}
                 <Image
-                  src="/assets/images/slots/background_layer.webp"
+                  src="/assets/images/vivo/bg_layer.webp"
                   width={364}
                   height={265}
                   alt="slots cards layer"
-                  className="absolute top-0 xl:w-[364px] xl:h-[265px] md:w-[264px] md:h-[165px] start-0 w-full h-full z-10 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out"
+                  className="absolute top-0 xl:w-[364px] xl:h-[265px] md:w-[264px] md:h-[165px] start-0 w-full h-full z-10 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out border-[2px] border-[#6AE3A9] rounded-lg"
                 />
                 {/* Button */}
-                <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out">
+                <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out">
                   <CommonButton content="Jugar" />
                 </div>
               </div>

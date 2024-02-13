@@ -15,6 +15,8 @@ module.exports = {
         "nav-bg": " background: rgba(255, 255, 255, 0.1)",
         blackShadow:
           "radial-gradient(48.51% 51.68% at 50.39% 55.02%, #00000060 0%, #00000050 23%, #00000040 47%, #00000030 72%, #00000020 0%, #00000003 0%)",
+        nuestrasOfertasBg:
+          "linear-gradient(306.99deg, rgba(81, 200, 239, 0.04) -13.72%, rgba(122, 245, 122, 0.04) 102.02%)",
       },
       boxShadow: {
         "elegirnos-box-shadow": "#357D6D 4px 4px",
@@ -32,7 +34,7 @@ module.exports = {
         Silver: "#cccccc",
         Gray: "#7f7f7f",
         "gray-dark": "#CCD0D1",
-        "Pale-slate": "#d5cfd2",
+        "Pale-slate": "#d5cfd2",  
         "gray-light": "#D3CFD3",
         "transparent-green": "#367E6C",
       },
