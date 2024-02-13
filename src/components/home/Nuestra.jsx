@@ -44,9 +44,9 @@ const Nuestra = () => {
                     el mundo que queremos crear contigo.
                   </p>
                   {/* Button */}
-                  <p className="lg:pt-6 pt-2 font-inter flex items-center font-bold lg:text-base text-sm text-Screamin-green">
+                  <p className="lg:pt-6 pt-2 font-inter w-[150px] flex items-center font-bold lg:text-base text-sm text-Screamin-green cursor-pointer group">
                     Aprende más
-                    <span className="ms-2">
+                    <span className="ms-2 group-hover:translate-x-3 transition-all duration-300 ease-in-out">
                       <GreenArrow />
                     </span>
                   </p>
@@ -65,9 +65,9 @@ const Nuestra = () => {
                     expectativas y brindarte experiencias inigualables.
                   </p>
                   {/* Button */}
-                  <p className="lg:pt-6 pt-2 font-inter flex items-center font-bold lg:text-base text-sm text-Screamin-green">
+                  <p className="lg:pt-6 pt-2  w-[150px] font-inter flex items-center font-bold lg:text-base text-sm text-Screamin-green group cursor-pointer">
                     Aprende más
-                    <span className="ms-2">
+                    <span className="ms-2 group-hover:translate-x-3 transition-all duration-300 ease-in-out">
                       <GreenArrow />
                     </span>
                   </p>
