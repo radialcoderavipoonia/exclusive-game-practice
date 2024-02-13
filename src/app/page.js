@@ -21,6 +21,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function Home() {
+  // Initialize AOS library on component mount
   useEffect(
     () => () => {
       AOS.init({
@@ -30,21 +31,30 @@ export default function Home() {
     },
     []
   );
+
   return (
     <>
+      {/* Hero section */}
       <Hero />
+      {/* Nuestra section */}
       <Nuestra />
+      {/* Marca section */}
       <Marca />
+      {/* Slots section */}
       <Slots />
+      {/* Jackpot section */}
       <div className="bg-[url('/assets/images/background/jackpot_image.webp')] md:bg-100 bg-cover bg-no-repeat xl:py-60 lg:py-40 md:py-32 pt-20 pb-44">
         <Jackpot />
         <Plataforma />
         <Vivo />
       </div>
+      {/* Casino Night section */}
       <CasinoNight />
+      {/* Elegirnos section */}
       <div className="bg-[url('/assets/images/background/elegirnos_image.webp')] lg:bg-100 bg-cover bg-no-repeat xl:pt-40 lg:pt-32 md:pt-20 pt-10">
         <Elegirnos />
       </div>
+      {/* Other sections */}
       <div className="bg-dark-green mt-[-1px]">
         <NuestrasOfertas />
         <Luxury />
@@ -53,6 +63,7 @@ export default function Home() {
         <Faqs />
         <Lanza />
       </div>
+      {/* Footer */}
       <Footer />
     </>
   );
