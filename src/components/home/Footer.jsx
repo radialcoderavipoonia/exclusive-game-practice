@@ -73,7 +73,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Footer text */}
-      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2  text-white font-medium lg:text-base text-sm opacity-70 px-2">
+      <p className="flex items-center justify-center py-5 border-t-[1px] border-cod-gray text-center gap-2  text-white font-medium lg:text-base text-sm opacity-70 px-2">
         © Juegos exclusivos - Todos los derechos reservados {currentYear}
       </p>
     </div>

@@ -52,7 +52,7 @@ const Faqs = () => {
   return (
     <div className=" relative z-30" id="faq">
       <div className="absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] top-[-30%] start-[-10%] pointer-events-none xl:block hidden"></div>
-      <div className="container max-w-[1152px] mx-auto px-3 xl:pt-12">  
+      <div className="container max-w-[1152px] mx-auto px-3 xl:pt-12">
         <h2 className="font-anton md:text-5xl xl:text-3xl lg:text-[36px] text-[30px] xl:pb-7 pb-4 text-center font-normal text-white leading-[112%]">
           Preguntas más frecuentes
         </h2>
@@ -60,7 +60,7 @@ const Faqs = () => {
           {faqData.map((value, index) => (
             <Accordion
               key={index}
-              className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-5 bg-transparent overflow-hidden ease-out transition-all duration-300 xl:mt-8 mt-6 relative"
+              className="flex flex-col justify-between border-[0.5px] border-oslo-gray rounded-md px-5 bg-transparent overflow-hidden ease-out transition-all duration-300 xl:mt-8 mt-6 relative"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}
               data-aos={value.fade}

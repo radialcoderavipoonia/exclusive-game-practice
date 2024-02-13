@@ -18,7 +18,7 @@ const NuestrasOfertas = () => {
         </p>
         {/* Main content */}
         <div
-          className="xl:mt-[60px] bg-nuestrasOfertasBg mt-4 rounded-2xl border-[#839090] border-[1px] relative z-30"
+          className="xl:mt-[60px] bg-nuestrasOfertasBg mt-4 rounded-2xl border-oslo-gray-second border-[1px] relative z-30"
           data-aos="fade-up"
           data-aos-duration="800"
         >

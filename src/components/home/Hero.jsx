@@ -25,7 +25,7 @@ const Hero = () => {
             </h1>
             {/* Subheading */}
             <p
-              className="text-[#CCCFD1] font-inter font-medium lg:text-base text-sm text-center lg:pt-4 pt-3 mb-0"
+              className="text-iron-secondary font-inter font-medium lg:text-base text-sm text-center lg:pt-4 pt-3 mb-0"
               data-aos="fade-up"
               data-aos-delay="600"
             >

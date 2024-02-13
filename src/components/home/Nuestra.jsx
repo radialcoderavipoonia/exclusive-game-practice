@@ -11,7 +11,7 @@ const Nuestra = () => {
         id="mission"
         className="bg-[url('/assets/images/background/nuestra_image.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px]"
       >
-        <div className="h-[15px] w-full bg-[#02181e] blur-md"></div>
+        <div className="h-[15px] w-full bg-blue-charcoal blur-md"></div>
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
           <div className="xl:pt-[74px] lg:pb-[313px] md:pb-48 pb-52">
             {/* Main content */}

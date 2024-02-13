@@ -10,7 +10,7 @@ const Platinum = () => {
       <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 xl:py-12 py-6">
         {/* Background container */}
         <div
-          className="bg-nuestrasOfertasBg rounded-2xl border-[#839090] border-[1px]"
+          className="bg-nuestrasOfertasBg rounded-2xl border-oslo-gray-second border-[1px]"
           data-aos="fade-up"
           data-aos-duration="800"
         >

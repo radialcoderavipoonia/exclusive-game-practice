@@ -22,11 +22,20 @@ const Marca = () => {
                   {value.image}
                 </div>
                 {/* Brand attribute title */}
-                <p className="text-center font-anton font-normal text-xl text-dark-green lg:pt-4 pt-3 mb-0" data-aos="fade-up" data-aos-delay="200">
+                <p
+                  className="text-center font-anton font-normal text-xl text-dark-green lg:pt-4 pt-3 mb-0"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   {value.title}
                 </p>
                 {/* Brand attribute description */}
-                <p className="text-center font-inter font-medium lg:text-base text-sm text-[#334349] pt-[10px] mb-0" data-aos="fade-up" data-aos-delay="200">
+                <p
+                  className="text-center font-inter font-medium lg:text-base text-sm text-
+limed-pruce pt-[10px] mb-0"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
                   {value.description}
                 </p>
               </div>
@@ -34,21 +43,21 @@ const Marca = () => {
           })}
           <div className="absolute left-[22%] xl:top-[5%] top-[10%] lg:block hidden">
             <Image
-            src="/assets/images/marca/top_curve_arrow.png"
-            width={240}
-            height={42}
-            alt="Logo"
-            className="xl:w-[240px] xl:h-[42px] w-[200px] h-[30px]"
-          />
+              src="/assets/images/marca/top_curve_arrow.png"
+              width={240}
+              height={42}
+              alt="Logo"
+              className="xl:w-[240px] xl:h-[42px] w-[200px] h-[30px]"
+            />
           </div>
           <div className="absolute right-[22%] top-[25%] lg:block hidden">
             <Image
-            src="/assets/images/marca/bottom_curve_arrow.png"
-            width={240}
-            height={42}
-            alt="Logo"
-            className="xl:w-[240px] xl:h-[42px] w-[200px] h-[30px]"
-          />
+              src="/assets/images/marca/bottom_curve_arrow.png"
+              width={240}
+              height={42}
+              alt="Logo"
+              className="xl:w-[240px] xl:h-[42px] w-[200px] h-[30px]"
+            />
           </div>
         </div>
       </div>

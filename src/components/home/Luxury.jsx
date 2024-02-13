@@ -7,7 +7,7 @@ const Luxury = () => {
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-4">
       {/* Background */}
       <div
-        className="lg:bg-[url('/assets/images/background/luxury_image.webp')] bg-[#092423] lg:bg-dark-green rounded-2xl lg:border-0 border-[#839090] border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat"
+        className="lg:bg-[url('/assets/images/background/luxury_image.webp')] bg-firefly lg:bg-dark-green rounded-2xl lg:border-0 border-oslo-gray-second border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat"
         data-aos="fade-up"
         data-aos-duration="800"
       >
@@ -34,7 +34,7 @@ const Luxury = () => {
                 <div key={index} className="flex gap-2 items-start pt-3">
                   <p>{value.rightIcon}</p>
                   <p className="text-gray-dark text-center font-inter mx-auto font-medium lg:text-base text-sm mb-0">
-                    {value.description  }
+                    {value.description}
                   </p>
                 </div>
               );
