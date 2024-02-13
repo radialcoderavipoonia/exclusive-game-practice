@@ -20,7 +20,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="nav_bar_bg p-4 flex-grow-0 relative z-50">
+    <nav className="nav_bar_bg bg-white bg-opacity-10 p-4 flex-grow-0 relative z-50">
       <div className="flex items-center justify-between container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
         {/* Logo */}
         <Link href="/">
@@ -95,7 +95,7 @@ const NavBar = () => {
                     href={link.path}
                     onClick={sidebarHandler}
                   >
-                    {link.title}
+                    {link.tittle}
                   </Link>
                 </li>
               );
