@@ -36,7 +36,7 @@ export default function Home() {
       <Nuestra />
       <Marca />
       <Slots />
-      <div className="bg-[url('/assets/images/background/jackpot_image.webp')] md:bg-100 bg-cover bg-no-repeat xl:py-60 lg:py-40 md:py-32 pt-20 pb-36">
+      <div className="bg-[url('/assets/images/background/jackpot_image.webp')] md:bg-100 bg-cover bg-no-repeat xl:py-60 lg:py-40 md:py-32 pt-20 pb-44">
         <Jackpot />
         <Plataforma />
         <Vivo />

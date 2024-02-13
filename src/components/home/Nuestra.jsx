@@ -12,7 +12,7 @@ const Nuestra = () => {
         className="bg-[url('/assets/images/background/nuestra_image.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px]"
       >
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
-          <div className="xl:pt-[74px] lg:pb-[243px] md:pb-44 pb-44">
+          <div className="xl:pt-[74px] lg:pb-[313px] md:pb-48 pb-52">
             {/* Main content */}
             <div className="flex md:flex-row flex-col justify-center items-center xl:gap-16 gap-8">
               {/* First column */}
