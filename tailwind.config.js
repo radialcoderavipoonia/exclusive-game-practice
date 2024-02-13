@@ -18,6 +18,7 @@ module.exports = {
       },
       boxShadow: {
         "elegirnos-box-shadow": "#357D6D 4px 4px",
+        "back-to-top": "white 0px 0px 15px 2px",
       },
       fontFamily: {
         anton: ["Anton", "sans-serif"],

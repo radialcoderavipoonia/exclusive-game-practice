@@ -1179,3 +1179,29 @@ export const Telephone = () => {
     </svg>
   );
 };
+export const BackToTop = () => {
+  return (
+    <svg
+      width="50"
+      height="50"
+      viewBox="0 0 50 50"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M34.5931 31.0839L25.3362 24.0377C25.0853 23.8467 24.7369 23.8497 24.4893 24.0451L15.5667 31.0839"
+        stroke="white"
+        stroke-width="2.08333"
+        stroke-linecap="round"
+        stroke-dasharray="24.17 25"
+      />
+      <path
+        d="M34.5931 25.8756L25.3362 18.8295C25.0853 18.6385 24.7369 18.6415 24.4893 18.8368L15.5667 25.8756"
+        stroke="white"
+        stroke-width="2.08333"
+        stroke-linecap="round"
+        stroke-dasharray="24.17 25"
+      />
+    </svg>
+  );
+};

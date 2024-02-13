@@ -19,18 +19,21 @@ import Lanza from "@/components/home/Lanza";
 import Footer from "@/components/common/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import BackToTopButton from "@/components/common/BackToTopButton";
 
 export default function Home() {
   // Initialize AOS library on component mount
   useEffect(() => {
     AOS.init({
-        duration: 1000,
-        once: true,
-      }); // Initialize AOS
+      duration: 1000,
+      once: true,
+    }); // Initialize AOS
   }, []);
 
   return (
     <>
+      {/* back to top button */}
+      <BackToTopButton />
       {/* Hero section */}
       <Hero />
       {/* Nuestra section */}
