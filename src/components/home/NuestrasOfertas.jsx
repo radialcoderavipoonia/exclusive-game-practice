@@ -28,6 +28,13 @@ const NuestrasOfertas = () => {
               alt="roultee wheel image"
               className="xl:w-full md:w-full w-[400px]"
             />
+              <Image
+              src="/assets/images/nuestras/image_bottom_shadow.png"
+              width={407}
+              height={33}
+              alt="image bottom shadow"
+              className="xl:w-[497px] md:w-full mt-6"
+            />
             {/* Shade overlay */}
             <div className="Nuestras_ofertas_shade"></div>
           </div>
