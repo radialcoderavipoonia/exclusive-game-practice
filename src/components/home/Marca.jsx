@@ -1,5 +1,6 @@
 import React from "react";
 import { NuestrosCards, marcaCard } from "../common/Helper"; // Importing necessary components and data
+import Image from "next/image";
 
 // Define the Marca component
 const Marca = () => {
@@ -11,7 +12,7 @@ const Marca = () => {
       </p>
       {/* Container for the brand attributes */}
       <div className="xl:pt-[60px] pt-9">
-        <div className="flex flex-wrap sm:flex-row lg:gap-12 md:gap-0 gap-4 flex-col justify-between items-start">
+        <div className="flex flex-wrap sm:flex-row lg:gap-12 md:gap-0 gap-4 flex-col justify-between items-start relative">
           {/* Mapping through the marcaCard array to render each attribute */}
           {marcaCard.map((value, index) => {
             return (
@@ -31,6 +32,24 @@ const Marca = () => {
               </div>
             );
           })}
+          <div className="absolute left-[22%] xl:top-[5%] top-[10%] lg:block hidden">
+            <Image
+            src="/assets/images/marca/top_curve_arrow.png"
+            width={240}
+            height={42}
+            alt="Logo"
+            className="xl:w-[240px] xl:h-[42px] w-[200px] h-[30px]"
+          />
+          </div>
+          <div className="absolute right-[22%] top-[25%] lg:block hidden">
+            <Image
+            src="/assets/images/marca/bottom_curve_arrow.png"
+            width={240}
+            height={42}
+            alt="Logo"
+            className="xl:w-[240px] xl:h-[42px] w-[200px] h-[30px]"
+          />
+          </div>
         </div>
       </div>
     </div>
