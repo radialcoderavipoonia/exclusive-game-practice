@@ -22,15 +22,12 @@ import "aos/dist/aos.css";
 
 export default function Home() {
   // Initialize AOS library on component mount
-  useEffect(
-    () => () => {
-      AOS.init({
+  useEffect(() => {
+    AOS.init({
         duration: 1000,
         once: true,
-      });
-    },
-    []
-  );
+      }); // Initialize AOS
+  }, []);
 
   return (
     <>
