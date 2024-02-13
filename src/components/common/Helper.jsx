@@ -26,11 +26,11 @@ import casinoCity from "../../../public/assets/images/eligieron/casino_city.webp
 import freeSpin from "../../../public/assets/images/eligieron/giros.webp";
 
 export const navLink = [
-  { tittle: "Hogar", path: "#home" },
-  { tittle: "Misión", path: "#mission" },
-  { tittle: "Tragamonedas", path: "#slots" },
-  { tittle: "Por qué elegirnos", path: "#choose" },
-  { tittle: "Ofertas", path: "#offer" },
+  { title: "Hogar", path: "#home" },
+  { title: "Misión", path: "#mission" },
+  { title: "Tragamonedas", path: "#slots" },
+  { title: "Por qué elegirnos", path: "#choose" },
+  { title: "Ofertas", path: "#offer" },
 ];
 export const marcaCard = [
   {

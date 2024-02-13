@@ -33,6 +33,7 @@ const Footer = () => {
             <div className="flex gap-3 items-center">
               {footerIcon.map((value, index) => (
                 <Link
+                  aria-label={value.icon}
                   href={value.url}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -54,19 +55,21 @@ const Footer = () => {
                 <li className=" font-inter font-bold lg:text-base text-sm text-white mb-2">
                   {value.tittle}
                 </li>
-                <li>
-                  {value.link.map((subValue, subIndex) => (
+
+                {value.link.map((subValue, subIndex) => (
+                  <li
+                    key={subIndex}
+                    className="flex items-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all"
+                  >
                     <Link
+                      aria-label={subValue.content}
                       href={subValue.path}
                       rel="noopener noreferrer"
-                      key={subIndex}
                     >
-                      <li className="flex items-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all">
-                        {subValue.icon} {subValue.content}
-                      </li>
+                      {subValue.icon} {subValue.content}
                     </Link>
-                  ))}
-                </li>
+                  </li>
+                ))}
               </ul>
             ))}
           </div>

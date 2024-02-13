@@ -9,6 +9,7 @@ const CommonButtonGradient = (props) => {
     <div className=" relative group">
       {/* Button element with gradient background */}
       <button
+        aria-label={content}
         className={`font-inter font-bold lg:text-base text-sm whitespace-nowrap bg-[linear-gradient(306.99deg,_#51c8ef_-13.72%,_#7af57a_102.02%)] text-black  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {content} {/* Displaying the content */}
@@ -25,9 +26,9 @@ const CommonButtonGradient = (props) => {
           {/* Path element for decorative stroke */}
           <path
             d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5"
-            stroke="url(#paint0_linear_1706_11)" 
-            strokeWidth="1.5" 
-            strokeLinecap="round" 
+            stroke="url(#paint0_linear_1706_11)"
+            strokeWidth="1.5"
+            strokeLinecap="round"
           />
           {/* Defining linear gradient */}
           <defs>

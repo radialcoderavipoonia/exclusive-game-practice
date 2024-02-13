@@ -38,10 +38,11 @@ const NavBar = () => {
             return (
               <li key={index}>
                 <Link
+                  aria-label={link.title}
                   className="text-white font-inter font-medium text-base opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                   href={link.path}
                 >
-                  {link.tittle}
+                  {link.title}
                 </Link>
               </li>
             );
@@ -58,6 +59,7 @@ const NavBar = () => {
         </div>
         {/* Hamburger menu for mobile */}
         <button
+          aria-label="menu icon"
           className="block lg:hidden text-white text-3xl"
           onClick={sidebarHandler}
         >
@@ -80,6 +82,7 @@ const NavBar = () => {
         <div className="p-4 h-screen flex justify-center items-center flex-col">
           {/* Close button for mobile */}
           <button
+            aria-label="cross icon"
             className="text-white text-3xl absolute top-4 sm:end-10 end-5 z-40"
             onClick={sidebarHandler}
           >
@@ -91,11 +94,12 @@ const NavBar = () => {
               return (
                 <li key={index}>
                   <Link
+                    aria-label={link.title}
                     className="text-white font-inter font-medium text-base opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                     href={link.path}
                     onClick={sidebarHandler}
                   >
-                    {link.tittle}
+                    {link.title}
                   </Link>
                 </li>
               );

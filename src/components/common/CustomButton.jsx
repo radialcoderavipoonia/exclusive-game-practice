@@ -7,7 +7,7 @@ const CommonButton = (props) => {
   return (
     <div className=" relative group">
       {/* Button element */}
-      <button
+      <button aria-label={content}
         className={`font-inter font-bold lg:text-base text-sm bg-transparent whitespace-nowrap text-white border-white border rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {content} {/* Displaying the content */}
