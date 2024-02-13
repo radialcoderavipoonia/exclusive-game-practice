@@ -32,7 +32,9 @@ const Footer = () => {
             <div className="flex gap-3 items-center">
               {footerIcon.map((value, index) => (
                 <Link
-                  href={value.link} target="_blank"
+                  href={value.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className=" hover:scale-90 transition-all ease-linear duration-200"
                   key={index}
                 >
@@ -52,7 +54,11 @@ const Footer = () => {
                   {value.tittle}
                 </li>
                 {value.link.map((subValue, subIndex) => (
-                  <Link href={subValue.path} key={subIndex}>
+                  <Link
+                    href={subValue.path}
+                    rel="noopener noreferrer"
+                    key={subIndex}
+                  >
                     <li className="flex items-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all">
                       {subValue.icon} {subValue.content}
                     </li>
@@ -64,7 +70,7 @@ const Footer = () => {
         </div>
       </div>
       {/* Footer text */}
-      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all px-2">
+      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2  text-white font-medium lg:text-base text-sm opacity-70 px-2">
         © Juegos exclusivos - Todos los derechos reservados {currentYear}
       </p>
     </div>

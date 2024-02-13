@@ -28,7 +28,7 @@ import freeSpin from "../../../public/assets/images/eligieron/giros.webp";
 export const navLink = [
   { tittle: "Hogar", path: "#home" },
   { tittle: "Misión", path: "#mission" },
-  { tittle: "Tragamonedas", path: "#solts" },
+  { tittle: "Tragamonedas", path: "#slots" },
   { tittle: "Por qué elegirnos", path: "#choose" },
   { tittle: "Ofertas", path: "#offer" },
 ];
@@ -196,7 +196,7 @@ export const eligieron = [
 export const faqData = [
   {
     fade: "fade-up",
-    duration:"500",
+    duration: "500",
     tittle:
       "¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
     content:
@@ -204,14 +204,14 @@ export const faqData = [
   },
   {
     fade: "fade-up",
-      duration:"700",
+    duration: "700",
     tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
-      duration:"900",
+    duration: "900",
     tittle:
       " ¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
     content:
@@ -219,21 +219,21 @@ export const faqData = [
   },
   {
     fade: "fade-up",
-      duration:"1100",
+    duration: "1100",
     tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
-      duration:"1300",
+    duration: "1300",
     tittle: "¿Qué métodos de pago aceptan?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     fade: "fade-up",
-      duration:"1500",
+    duration: "1500",
     tittle: "¿Puedo probar sus juegos antes de comprometerme?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
@@ -244,18 +244,18 @@ export const footerLinks = [
     tittle: "Menú principal",
     link: [
       { content: "Hogar", path: "#home" },
-      { content: "Misión", path: "#faq" },
+      { content: "Misión", path: "#mission" },
       { content: "Tragamonedas", path: "#slots" },
-      { content: "Por qué elegirnos", path: "#kasinoNight" },
-      { content: "Ofertas", path: "#jackpot" },
+      { content: "Por qué elegirnos", path: "#choose" },
+      { content: "Ofertas", path: "#offer" },
     ],
   },
   {
     tittle: "Atención al cliente",
     link: [
-      { content: "¿Necesitas ayuda?", path: "#home" },
+      { content: "¿Necesitas ayuda?", path: "#faq" },
       { content: "política de privacidad", path: "#slots" },
-      { content: "Términos de servicios", path: "#kasinoNight" },
+      { content: "Términos de servicios", path: "#choose" },
     ],
   },
   {

@@ -7,7 +7,10 @@ import CommonButtonGradient from "../common/CommonButtonGradient"; // Importing 
 // Define the Slots component
 const Slots = () => {
   return (
-    <div id="solts" className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 sm:py-14 pb-14 pt-6">
+    <div
+      id="slots"
+      className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 sm:py-14 pb-14 pt-6"
+    >
       {/* Main content container */}
       <div className="max-w-[944px] mx-auto px-3">
         {/* Title */}
@@ -26,10 +29,19 @@ const Slots = () => {
       </div>
       {/* Slots cards */}
       <div className="lg:pt-9 pt-8">
-        <div className="flex md:justify-center justify-between md:gap-6 items-center flex-wrap" data-aos="fade-up" data-aos-delay="100">
+        <div
+          className="flex md:justify-center justify-between md:gap-6 items-center flex-wrap"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           {slotsCard.map((value, index) => {
             return (
-              <div key={index} className="relative group mt-6 md:mt-0" data-aos="zoom-in" data-aos-delay="200">
+              <div
+                key={index}
+                className="relative group mt-6 md:mt-0"
+                data-aos="zoom-in"
+                data-aos-delay="200"
+              >
                 {/* Slot card image */}
                 <Image
                   src={value.image}
