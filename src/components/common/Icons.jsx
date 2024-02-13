@@ -1205,3 +1205,21 @@ export const BackToTop = () => {
     </svg>
   );
 };
+export const MenuIcon = () => {
+  return (
+    <svg
+      width="50"
+      height="50"
+      viewBox="0 0 50 50"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M11.1149 25.2459L39.1136 24.9805M11.2286 37.2454L39.2274 36.98M11.0011 13.2465L38.9999 12.9811"
+        stroke="white"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+    </svg>
+  );
+};

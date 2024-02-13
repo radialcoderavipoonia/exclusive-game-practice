@@ -275,7 +275,7 @@ export const footerLinks = [
   },
 ];
 export const footerIcon = [
-  { link: "https://www.instagram.com/", icon: <Instagram /> },
-  { link: "https://www.facebook.com/", icon: <FaceBook /> },
-  { link: "https://www.linkedin.com/feed/", icon: <LinkedIn /> },
+  { url: "https://www.instagram.com/", icon: <Instagram /> },
+  { url: "https://www.facebook.com/", icon: <FaceBook /> },
+  { url: "https://www.linkedin.com/feed/", icon: <LinkedIn /> },
 ];

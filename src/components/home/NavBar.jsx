@@ -2,10 +2,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import { FaGripLines } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
-import { navLink } from "../common/Helper";
 import CommonButton from "../common/CustomButton";
+import { navLink } from "../common/Helper";
+import { MenuIcon } from "../common/Icons";
 
 // Component for navigation bar
 const NavBar = () => {
@@ -61,7 +61,7 @@ const NavBar = () => {
           className="block lg:hidden text-white text-3xl"
           onClick={sidebarHandler}
         >
-          <FaGripLines />
+          <MenuIcon />
         </button>
       </div>
       {/* Sidebar */}

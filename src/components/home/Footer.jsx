@@ -33,7 +33,7 @@ const Footer = () => {
             <div className="flex gap-3 items-center">
               {footerIcon.map((value, index) => (
                 <Link
-                  href={value.link}
+                  href={value.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className=" hover:scale-90 transition-all ease-linear duration-200"
