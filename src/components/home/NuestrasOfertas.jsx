@@ -63,7 +63,7 @@ const NuestrasOfertas = () => {
                       {/* Icon */}
                       <p>{value.rightIcon}</p>
                       {/* Feature description */}
-                      <p className="text-white font-inter font-medium lg:text-base text-sm mb-0">
+                      <p className="text-white font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
                         {value.para}
                       </p>
                     </div>

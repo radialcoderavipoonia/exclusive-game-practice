@@ -29,7 +29,7 @@ const Jackpot = () => {
               return (
                 <div key={index} className="flex gap-2 md:justify-start justify-center items-start pt-3">
                   <p>{value.rightIcon}</p>
-                  <p className="text-white font-inter font-medium lg:text-base text-sm mb-0">
+                  <p className="text-white font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
                     {value.para}
                   </p>
                 </div>
@@ -37,7 +37,7 @@ const Jackpot = () => {
             })}
           </div>
           {/* Additional Information */}
-          <p className="pt-6 mb-0 text-white font-inter font-medium lg:text-base text-sm">
+          <p className="pt-6 mb-0 text-white md:text-start text-center font-inter font-medium lg:text-base text-sm">
             Te reintegramos todo lo invertido en fichas en la moneda que elijas.
           </p>
         </div>
