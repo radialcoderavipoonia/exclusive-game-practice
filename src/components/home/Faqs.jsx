@@ -50,8 +50,8 @@ const Faqs = () => {
     setIsAccordionOpen(isAccordionOpen === index ? -1 : index);
   };
   return (
-    <div className=" relative" id="faq">
-      <div className="absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] top-[-30%] start-[-10%] pointer-events-none"></div>
+    <div className=" relative z-30" id="faq">
+      <div className="absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] top-[-30%] start-[-10%] pointer-events-none xl:block hidden"></div>
       <div className="container max-w-[1152px] mx-auto px-3 xl:pt-12">
         <h2 className="font-anton md:text-5xl xl:text-3xl lg:text-[36px] text-[30px] xl:pb-0 pb-4 text-center font-normal text-white leading-[112%]">
           Preguntas más frecuentes
@@ -83,6 +83,7 @@ const Faqs = () => {
           ))}
         </div>
       </div>
+      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] xl:block hidden top-[-15%] left-[-20%]"></div>
     </div>
   );
 };
