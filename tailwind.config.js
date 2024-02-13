@@ -7,12 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-       backgroundSize: {
-      '100': '100% 100%',
-     
-    },
+      backgroundSize: {
+        "100": "100% 100%",
+      },
       backgroundImage: {
         "nav-bg": " background: rgba(255, 255, 255, 0.1)",
+        blackShadow:
+          "radial-gradient(48.51% 51.68% at 50.39% 55.02%, #00000060 0%, #00000050 23%, #00000040 47%, #00000030 72%, #00000020 0%, #00000003 0%)",
       },
       boxShadow: {
         "elegirnos-box-shadow": "#357D6D 4px 4px",
