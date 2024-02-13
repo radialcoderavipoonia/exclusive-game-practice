@@ -192,12 +192,12 @@ export const eligieron = [
     fade: "fade-up",
     delay: "400",
   },
-];
+];  
 export const faqData = [
   {
     fade: "fade-up",
     duration: "500",
-    tittle:
+    title:
       "¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",

@@ -16,10 +16,10 @@ import Platinum from "@/components/home/Platinum";
 import Nosotros from "@/components/home/Nosotros";
 import Faqs from "@/components/home/Faqs";
 import Lanza from "@/components/home/Lanza";
-import Footer from "@/components/common/Footer";
+import Footer from "@/components/home/Footer";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import BackToTopButton from "@/components/common/BackToTopButton";
+import BackToTopButton from "@/components/common/BackToTop";
 
 export default function Home() {
   // Initialize AOS library on component mount

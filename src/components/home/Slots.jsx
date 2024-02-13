@@ -1,8 +1,8 @@
 import React from "react";
 import { slotsCard } from "../common/Helper"; // Importing data for slots card
 import Image from "next/image"; // Importing the Image component from Next.js
-import CommonButton from "../common/CommonButton"; // Importing a custom CommonButton component
-import CommonButtonGradient from "../common/CommonButtonGradient"; // Importing a custom CommonButtonGradient component
+import CommonButton from "../common/CustomButton"; // Importing a custom CommonButton component
+import CommonButtonGradient from "../common/CustomButtonGradient"; // Importing a custom CommonButtonGradient component
 
 // Define the Slots component
 const Slots = () => {

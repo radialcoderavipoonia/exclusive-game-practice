@@ -1,7 +1,7 @@
 import React from "react";
 import { RightIcon } from "../common/Icons"; // Importing a custom RightIcon component
 import Image from "next/image"; // Importing the Image component from Next.js
-import CommonButton from "../common/CommonButton"; // Importing a custom button component
+import CommonButton from "../common/CustomButton"; // Importing a custom button component
 
 // Define the Platinum component
 const Platinum = () => {

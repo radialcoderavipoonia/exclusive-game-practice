@@ -1,7 +1,7 @@
 import React from "react";
 import { juegos } from "../common/Helper"; // Importing data for live games
 import Image from "next/image"; // Importing the Image component from Next.js
-import CommonButton from "../common/CommonButton"; // Importing a custom CommonButton component
+import CommonButton from "../common/CustomButton"; // Importing a custom CommonButton component
 
 // Define the Vivo component
 const Vivo = () => {
@@ -15,7 +15,12 @@ const Vivo = () => {
       <div className="xl:pt-[60px] pt-9 flex justify-center gap-6 flex-wrap">
         {juegos.map((value, index) => {
           return (
-            <div key={index} className="relative group" data-aos={value.fade} data-aos-delay={value.delay}>
+            <div
+              key={index}
+              className="relative group"
+              data-aos={value.fade}
+              data-aos-delay={value.delay}
+            >
               {/* Live game image */}
               <Image
                 src={value.image}

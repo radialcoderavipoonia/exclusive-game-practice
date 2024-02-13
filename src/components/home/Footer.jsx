@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { footerIcon, footerLinks } from "./Helper";
+import { footerIcon, footerLinks } from "../common/Helper";
 import Link from "next/link";
 
 // Footer component definition

@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaGripLines } from "react-icons/fa6";
 import { RxCross2 } from "react-icons/rx";
-import { navLink } from "./Helper";
-import CommonButton from "./CommonButton";
+import { navLink } from "../common/Helper";
+import CommonButton from "../common/CustomButton";
 
 // Component for navigation bar
 const NavBar = () => {
@@ -29,11 +29,11 @@ const NavBar = () => {
             width={210}
             height={43}
             alt="Logo"
-            className="h-8"
+            className="md:w-[210px] w-[190px]"
           />
         </Link>
         {/* Desktop navigation links */}
-        <ul className="hidden lg:flex space-x-4">
+        <ul className="hidden lg:flex gap-7">
           {navLink.map((link, index) => {
             return (
               <li key={index}>

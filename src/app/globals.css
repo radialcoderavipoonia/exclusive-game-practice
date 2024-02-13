@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* universal  */
+* {
+  scroll-behavior: smooth !important;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+
+/* key frame  */
+.backtotop_animation {
+  animation: toparrow 2s ease-in-out infinite;
+}
+@keyframes toparrow {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

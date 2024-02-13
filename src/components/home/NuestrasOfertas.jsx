@@ -1,7 +1,7 @@
 import Image from "next/image"; // Importing the Image component from Next.js
 import React from "react";
 import { ofertas } from "../common/Helper"; // Importing data for offers
-import CommonButton from "../common/CommonButton"; // Importing a custom button component
+import CommonButton from "../common/CustomButton"; // Importing a custom button component
 
 // Define the NuestrasOfertas component
 const NuestrasOfertas = () => {
