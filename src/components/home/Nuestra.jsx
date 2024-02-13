@@ -7,7 +7,10 @@ const Nuestra = () => {
   return (
     <>
       {/* Background container */}
-      <div id="mission" className="bg-[url('/assets/images/background/nuestra_image.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px]">
+      <div
+        id="mission"
+        className="bg-[url('/assets/images/background/nuestra_image.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px]"
+      >
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
           <div className="xl:pt-[74px] lg:pb-[243px] md:pb-44 pb-44">
             {/* Main content */}
@@ -21,13 +24,15 @@ const Nuestra = () => {
                   height={536}
                   alt="poker with friends image"
                   className="lg:w-[538px] w-[438px] lg:h-[536px] h-[370px]"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
                 />
                 {/* Text */}
-                <div className="lg:xl:pt-[60px] pt-9 max-w-[444px]">
+                <div className="lg:xl:pt-[60px] pt-9 max-w-[444px]" data-aos="fade-right">
                   <h2 className="text-white font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] leading-[100%]">
                     Nuestra Visión
                   </h2>
-                  <p className="lg:lg:pt-4 pt-3 pt-2 text-gray-dark font-inter font-medium lg:text-base text-sm mb-0">
+                  <p className="lg:lg:pt-4 pt-3 text-gray-dark font-inter font-medium lg:text-base text-sm mb-0">
                     Nuestra visión es ser líderes indiscutibles en la industria
                     de los juegos de azar y llevar nuestra pasión por el
                     entretenimiento más allá de las fronteras. Imagina un mundo
@@ -45,11 +50,11 @@ const Nuestra = () => {
               </div>
               {/* Second column */}
               <div className="col-6">
-                <div className="max-w-[444px]">
+                <div className="max-w-[444px]" data-aos="fade-left">
                   <h2 className="text-white font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] leading-[100%]">
                     Nuestra Misión
                   </h2>
-                  <p className="lg:lg:pt-4 pt-3 pt-2 text-gray-dark font-inter font-medium lg:text-base text-sm mb-0">
+                  <p className="lg:lg:pt-4 pt-3 text-gray-dark font-inter font-medium lg:text-base text-sm mb-0">
                     Nuestra misión es simple pero poderosa: proporcionarte la
                     más amplia gama de soluciones de entretenimiento de alta
                     calidad y rentabilidad. Estamos comprometidos a elevar tus
@@ -70,6 +75,8 @@ const Nuestra = () => {
                   height={536}
                   alt="poker with friends image"
                   className="lg:xl:pt-[60px] pt-9 lg:w-[538px] w-[438px] lg:h-[536px] h-[370px]"
+                  data-aos="zoom-in"
+                  data-aos-delay="200"
                 />
               </div>
             </div>

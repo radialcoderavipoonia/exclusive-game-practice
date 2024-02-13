@@ -12,9 +12,9 @@ const Jackpot = () => {
           width={557}
           height={439}
           alt="jackpot images"
-          className="xl:w-[557px] xl:h-[439px] lg:w-[450px] w-[350px] lg:h-[400px] h-[300px]"
+          className="xl:w-[557px] xl:h-[439px] lg:w-[450px] w-[350px] lg:h-[400px] h-[300px]"   data-aos="fade-right" data-aos-delay="100"
         />
-        <div>
+        <div  data-aos="fade-left" data-aos-delay="100">
           {/* Heading */}
           <h2 className="text-white font-anton md:text-start text-center font-normal xl:text-3xl lg:text-[36px] text-[30px] leading-[100%]">
             Potenciando sus elecciones

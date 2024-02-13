@@ -145,12 +145,18 @@ export const playingGames = [
 export const juegos = [
   {
     image: ezugi,
+    fade: "fade-up",
+    delay: "200",
   },
   {
     image: roulette,
+    fade: "fade-down",
+    delay: "300",
   },
   {
     image: betting,
+    fade: "fade-up",
+    delay: "400",
   },
 ];
 export const chooseUs = [
@@ -173,43 +179,61 @@ export const chooseUs = [
 export const eligieron = [
   {
     image: freeSpin,
+    fade: "fade-up",
+    delay: "200",
   },
   {
     image: rcasino,
+    fade: "fade-down",
+    delay: "300",
   },
   {
     image: casinoCity,
+    fade: "fade-up",
+    delay: "400",
   },
 ];
 export const faqData = [
   {
+    fade: "fade-up",
+    duration:"500",
     tittle:
       "¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
+    fade: "fade-up",
+      duration:"700",
     tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
+    fade: "fade-up",
+      duration:"900",
     tittle:
       " ¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
+    fade: "fade-up",
+      duration:"1100",
     tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
+    fade: "fade-up",
+      duration:"1300",
     tittle: "¿Qué métodos de pago aceptan?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
+    fade: "fade-up",
+      duration:"1500",
     tittle: "¿Puedo probar sus juegos antes de comprometerme?",
     content:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",

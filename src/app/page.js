@@ -1,3 +1,5 @@
+"use client";
+import { useEffect } from "react";
 import Hero from "@/components/home/Hero";
 import "./common.css";
 import Nuestra from "@/components/home/Nuestra";
@@ -15,8 +17,19 @@ import Nosotros from "@/components/home/Nosotros";
 import Faqs from "@/components/home/Faqs";
 import Lanza from "@/components/home/Lanza";
 import Footer from "@/components/common/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(
+    () => () => {
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    },
+    []
+  );
   return (
     <>
       <Hero />

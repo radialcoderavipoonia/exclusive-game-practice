@@ -16,7 +16,7 @@ const Nosotros = () => {
         {/* Mapping through the clients data */}
         {eligieron.map((value, index) => {
           return (
-            <div key={index} className="relative group lg:mt-6">
+            <div key={index} className="relative group lg:mt-6" data-aos={value.fade} data-aos-delay={value.delay}>
               {/* Client image */}
               <Image
                 src={value.image}
@@ -42,7 +42,7 @@ const Nosotros = () => {
         })}
       </div>
       {/* Additional information (visible on larger screens) */}
-      <div className="text-center pt-[38px] lg:block hidden">
+      <div className="text-center pt-[38px] lg:block hidden" data-aos="fade-up" data-aos-duration="300">
         <p className="text-white lg:text-base text-sm font-inter font-semibold ">
           Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
           de emocionantes experiencias de juego.
@@ -55,7 +55,7 @@ const Nosotros = () => {
         </p>
       </div>
       {/* Additional information (visible on smaller screens) */}
-      <p className="text-white lg:text-base text-sm font-inter font-semibold lg:hidden block pt-8 text-center px-3">
+      <p className="text-white lg:text-base text-sm font-inter font-semibold lg:hidden block pt-8 text-center px-3" data-aos="fade-up" data-aos-duration="300">
         Clientes satisfechos que confiaron en Exclusive Games y han disfrutado
         de emocionantes experiencias de juego. Ahora, la próxima apuesta está en
         tus manos. Elige ganar. Elige exclusive game.

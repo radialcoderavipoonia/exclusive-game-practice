@@ -26,10 +26,10 @@ const Slots = () => {
       </div>
       {/* Slots cards */}
       <div className="lg:pt-9 pt-8">
-        <div className="flex md:justify-center justify-between md:gap-6 items-center flex-wrap">
+        <div className="flex md:justify-center justify-between md:gap-6 items-center flex-wrap" data-aos="fade-up" data-aos-delay="100">
           {slotsCard.map((value, index) => {
             return (
-              <div key={index} className="relative group mt-6 md:mt-0">
+              <div key={index} className="relative group mt-6 md:mt-0" data-aos="zoom-in" data-aos-delay="200">
                 {/* Slot card image */}
                 <Image
                   src={value.image}

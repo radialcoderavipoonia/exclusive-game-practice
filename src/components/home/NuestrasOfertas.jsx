@@ -16,7 +16,7 @@ const NuestrasOfertas = () => {
         Te ofrecemos las mejores experiencias de juegos para tus clientes.
       </p>
       {/* Main content */}
-      <div className="xl:mt-[60px] mt-4 lg:bg-[url('/assets/images/background/nuestras_image.webp')] bg-[#092423] lg:bg-dark-green rounded-2xl lg:border-0 border-[#839090] border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat">
+      <div className="xl:mt-[60px] mt-4 lg:bg-[url('/assets/images/background/nuestras_image.webp')] bg-[#092423] lg:bg-dark-green rounded-2xl lg:border-0 border-[#839090] border-[1px] bg-center lg:bg-100 bg-contain bg-no-repeat" data-aos="fade-up" data-aos-duration="800">
         <div className="flex md:flex-row flex-col lg:pt-14 lg:pb-8 py-8 lg:px-10 px-4 items-center lg:gap-[22px] gap-3">
           {/* Left side */}
           <div className="relative">

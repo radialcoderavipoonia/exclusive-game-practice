@@ -15,7 +15,7 @@ const Vivo = () => {
       <div className="xl:pt-[60px] pt-9 flex justify-center gap-6 flex-wrap">
         {juegos.map((value, index) => {
           return (
-            <div key={index} className="relative group">
+            <div key={index} className="relative group" data-aos={value.fade} data-aos-delay={value.delay}>
               {/* Live game image */}
               <Image
                 src={value.image}

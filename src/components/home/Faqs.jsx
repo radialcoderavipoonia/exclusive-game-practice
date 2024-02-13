@@ -63,6 +63,8 @@ const Faqs = () => {
               className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-6 bg-transparent overflow-hidden ease-out transition-all duration-300 xl:mt-10 mt-6 relative"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}
+              data-aos={value.fade}
+              data-aos-duration={value.duration}
             >
               <AccordionHeader
                 onClick={() => accordionHandler(index)}

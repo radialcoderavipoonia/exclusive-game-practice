@@ -18,10 +18,10 @@ const Elegirnos = () => {
           width={558}
           height={514}
           alt="tripple seven images"
-          className="xl:w-[558px] lg:w-[458px] w-[358px] xl:h-[514px] lg:h-[440px] h-[358px]"
+          className="xl:w-[558px] lg:w-[458px] w-[358px] xl:h-[514px] lg:h-[440px] h-[358px]" data-aos="fade-right"
         />
         {/* Div containing heading and reasons to choose */}
-        <div>
+        <div  data-aos="fade-left">
           {/* Heading with specific styling */}
           <h2 className="text-white leading-[100%] font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px]">
             Más razones para elegirnos

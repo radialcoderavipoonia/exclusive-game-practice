@@ -1,5 +1,5 @@
 import React from "react";
-import { NuestrosCards, marcaCard } from "../common/Helper"; // Importing necessary components and data
+import { marcaCard } from "../common/Helper"; // Importing necessary components and data
 import Image from "next/image";
 
 // Define the Marca component
@@ -22,11 +22,11 @@ const Marca = () => {
                   {value.image}
                 </div>
                 {/* Brand attribute title */}
-                <p className="text-center font-anton font-normal text-xl text-dark-green lg:pt-4 pt-3 mb-0">
+                <p className="text-center font-anton font-normal text-xl text-dark-green lg:pt-4 pt-3 mb-0" data-aos="fade-up" data-aos-delay="200">
                   {value.title}
                 </p>
                 {/* Brand attribute description */}
-                <p className="text-center font-inter font-medium lg:text-base text-sm text-dark-green pt-[10px] mb-0">
+                <p className="text-center font-inter font-medium lg:text-base text-sm text-dark-green pt-[10px] mb-0" data-aos="fade-up" data-aos-delay="200">
                   {value.description}
                 </p>
               </div>
