@@ -68,7 +68,7 @@ const Faqs = () => {
             >
               <AccordionHeader
                 onClick={() => accordionHandler(index)}
-                className="py-4"
+                className={`pt-4 pb-${isAccordionOpen === index ? 2 : 4}`} // Conditional class based on accordion state
               >
                 <h2 className="text-start text-white flex font-anton font-normal leading-[150%] lg:text-xl text-sm mb-0 pe-2">
                   {value.title}
