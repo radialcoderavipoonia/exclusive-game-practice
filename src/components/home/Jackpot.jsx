@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { potenciando } from "../common/Helper";
+import { RightIcon } from "../common/Icons";
 
 const Jackpot = () => {
   return (
@@ -12,9 +13,11 @@ const Jackpot = () => {
           width={557}
           height={439}
           alt="jackpot images"
-          className="xl:w-[557px] xl:h-[439px] lg:w-[450px] w-[350px] lg:h-[400px] h-[300px]"   data-aos="fade-right" data-aos-delay="100"
+          className="xl:w-[557px] xl:h-[439px] lg:w-[450px] w-[350px] lg:h-[400px] h-[300px]"
+          data-aos="fade-right"
+          data-aos-delay="100"
         />
-        <div  data-aos="fade-left" data-aos-delay="100">
+        <div data-aos="fade-left" data-aos-delay="100">
           {/* Heading */}
           <h2 className="text-white font-anton md:text-start text-center font-normal xl:text-3xl lg:text-[36px] text-[30px] leading-[100%]">
             Potenciando sus elecciones
@@ -27,8 +30,11 @@ const Jackpot = () => {
           <div className="pt-3 xl:max-w-[412px]">
             {potenciando.map((value, index) => {
               return (
-                <div key={index} className="flex gap-2 md:justify-start justify-center items-start pt-3">
-                  <p>{value.rightIcon}</p>
+                <div
+                  key={index}
+                  className="flex gap-2 md:justify-start justify-center items-start pt-3"
+                >
+                  <RightIcon />
                   <p className="text-gray-dark font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
                     {value.title}
                   </p>

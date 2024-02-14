@@ -2,6 +2,7 @@ import Image from "next/image"; // Importing the Image component from Next.js
 import React from "react";
 import { ofertas } from "../common/Helper"; // Importing data for offers
 import CommonButton from "../common/CustomButton"; // Importing a custom button component
+import { RightIcon } from "../common/Icons";
 
 // Define the NuestrasOfertas component
 const NuestrasOfertas = () => {
@@ -63,7 +64,10 @@ const NuestrasOfertas = () => {
                       className="flex gap-2 md:items-start items-center justify-center md:justify-start pt-3"
                     >
                       {/* Icon */}
-                      <p>{value.rightIcon}</p>
+                      <p>
+                        {" "}
+                        <RightIcon />
+                      </p>
                       {/* Feature description */}
                       <p className="text-gray-dark font-inter md:text-start text-center font-medium lg:text-base text-sm mb-0">
                         {value.description}

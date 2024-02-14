@@ -1,3 +1,15 @@
+import casinoCity from "../../../public/assets/images/eligieron/casino_city.webp";
+import freeSpin from "../../../public/assets/images/eligieron/giros.webp";
+import rcasino from "../../../public/assets/images/eligieron/r_casino.webp";
+import casino from "../../../public/assets/images/slots/casino.webp";
+import helloSummer from "../../../public/assets/images/slots/hello_summer.webp";
+import jetx from "../../../public/assets/images/slots/jetx.webp";
+import joker from "../../../public/assets/images/slots/joker.webp";
+import luckyFortune from "../../../public/assets/images/slots/lucky_fortune.webp";
+import star from "../../../public/assets/images/slots/star.webp";
+import betting from "../../../public/assets/images/vivo/betting.webp";
+import ezugi from "../../../public/assets/images/vivo/ezugi.webp";
+import roulette from "../../../public/assets/images/vivo/roulette.webp";
 import {
   Bulb,
   Coin,
@@ -9,21 +21,8 @@ import {
   LinkedIn,
   Mail,
   Proactividad,
-  RightIcon,
-  Telephone,
+  Telephone
 } from "./Icons";
-import jetx from "../../../public/assets/images/slots/jetx.webp";
-import joker from "../../../public/assets/images/slots/joker.webp";
-import star from "../../../public/assets/images/slots/star.webp";
-import luckyFortune from "../../../public/assets/images/slots/lucky_fortune.webp";
-import helloSummer from "../../../public/assets/images/slots/hello_summer.webp";
-import casino from "../../../public/assets/images/slots/casino.webp";
-import ezugi from "../../../public/assets/images/vivo/ezugi.webp";
-import roulette from "../../../public/assets/images/vivo/roulette.webp";
-import betting from "../../../public/assets/images/vivo/betting.webp";
-import rcasino from "../../../public/assets/images/eligieron/r_casino.webp";
-import casinoCity from "../../../public/assets/images/eligieron/casino_city.webp";
-import freeSpin from "../../../public/assets/images/eligieron/giros.webp";
 
 export const navLink = [
   { title: "Hogar", path: "#home" },
@@ -74,71 +73,56 @@ export const slotsCard = [
 ];
 export const potenciando = [
   {
-    rightIcon: <RightIcon />,
     title: "Tecnología HTML5",
   },
   {
-    rightIcon: <RightIcon />,
     title: "Versión PC y móvil",
   },
   {
-    rightIcon: <RightIcon />,
     title: "Control de RTP (controlás qué porcentaje pagar)",
   },
   {
-    rightIcon: <RightIcon />,
     title: "Bonos editables, happy hours, Jackpots, códigos  promocionales.",
   },
   {
-    rightIcon: <RightIcon />,
     title: "Aplicación para android y windows de regalo.",
   },
 ];
 export const ofertas = [
   {
-    rightIcon: <RightIcon />,
     description:
       "Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales",
   },
   {
-    rightIcon: <RightIcon />,
     description: "Control de RTP (controlás qué porcentaje pagar)",
   },
   {
-    rightIcon: <RightIcon />,
     description:
       "Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalo",
   },
   {
-    rightIcon: <RightIcon />,
     description: "Aplicación para Android y Windows de regalo.",
   },
   {
-    rightIcon: <RightIcon />,
     description: "Tiempo de creación 2 a 3 semanas",
   },
 ];
 export const playingGames = [
   {
-    rightIcon: <RightIcon />,
     description:
       "Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales",
   },
   {
-    rightIcon: <RightIcon />,
     description: "Control de RTP (controlás qué porcentaje pagar)",
   },
   {
-    rightIcon: <RightIcon />,
     description:
       "Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalo",
   },
   {
-    rightIcon: <RightIcon />,
     description: "Aplicación para Android y Windows de regalo.",
   },
   {
-    rightIcon: <RightIcon />,
     description: "Tiempo de creación 2 a 3 semanas",
   },
 ];

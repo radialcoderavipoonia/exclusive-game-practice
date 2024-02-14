@@ -1,6 +1,7 @@
 import React from "react";
 import { playingGames } from "../common/Helper"; // Importing data from Helper.js
 import CommonButtonGradient from "../common/CustomButtonGradient"; // Importing a common button component
+import { RightIcon } from "../common/Icons";
 
 const Luxury = () => {
   return (
@@ -32,7 +33,9 @@ const Luxury = () => {
             {playingGames.map((value, index) => {
               return (
                 <div key={index} className="flex gap-2 items-start pt-3">
-                  <p>{value.rightIcon}</p>
+                  <p>
+                    <RightIcon />
+                  </p>
                   <p className="text-gray-dark text-center font-inter mx-auto font-medium lg:text-base text-sm mb-0">
                     {value.description}
                   </p>
