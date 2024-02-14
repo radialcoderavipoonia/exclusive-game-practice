@@ -10,6 +10,7 @@ module.exports = {
       backgroundSize: {
         "100": "100% 100%",
         "99": "99% 100%",
+        "104": "104% 104%",
       },
       backgroundImage: {
         "nav-bg": " background: rgba(255, 255, 255, 0.1)",

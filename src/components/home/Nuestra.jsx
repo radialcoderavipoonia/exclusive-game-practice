@@ -9,9 +9,10 @@ const Nuestra = () => {
       {/* Background container */}
       <div
         id="mission"
-        className="bg-[url('/assets/images/background/nuestra_image.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px]"
+        className="bg-[url('/assets/images/background/nuestra_image.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px] relative"
       >
         <div className="h-[15px] w-full bg-blue-charcoal blur-md"></div>
+        <div className="w-[384px] h-[284px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 md:hidden block rounded-full blur-[80px] top-[-5%] left-[-20%] z-10"></div>
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
           <div className="xl:pt-[74px] lg:pb-[313px] md:pb-48 pb-52">
             {/* Main content */}
@@ -53,8 +54,11 @@ const Nuestra = () => {
                 </div>
               </div>
               {/* Second column */}
-              <div className="col-6">
-                <div className="max-w-[444px]" data-aos="fade-left">
+              <div className="col-6 flex md:flex-col flex-col-reverse">
+                <div
+                  className="max-w-[444px] md:pt-0 pt-9"
+                  data-aos="fade-left"
+                >
                   <h2 className="text-white font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] leading-[100%]">
                     Nuestra Misión
                   </h2>
@@ -78,7 +82,7 @@ const Nuestra = () => {
                   width={538}
                   height={536}
                   alt="poker with friends image"
-                  className="lg:xl:pt-[60px] pt-9 lg:w-[538px] w-[438px] lg:h-[536px] h-[370px]"
+                  className="lg:xl:pt-[60px] md:pt-9 lg:w-[538px] w-[438px] lg:h-[536px] h-[370px]"
                   data-aos="zoom-in"
                   data-aos-delay="200"
                 />

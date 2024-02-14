@@ -56,7 +56,7 @@ const Faqs = () => {
         <h2 className="font-anton md:text-5xl xl:text-3xl lg:text-[36px] text-[30px] xl:pb-7 pb-4 text-center font-normal text-white leading-[112%]">
           Preguntas más frecuentes
         </h2>
-        <div className="max-w-[970px] mx-auto">
+        <div className="lg:max-w-[970px] md:max-w-[740px] max-w-[620px] mx-auto">
           {faqData.map((value, index) => (
             <Accordion
               key={index}
