@@ -19,8 +19,7 @@ const Slots = () => {
         </h2>
         {/* Description */}
         <p
-          className="lg:pt-4 pt-3 mb-0 font-inter font-medium lg:text-base text-sm text-
-limed-pruce text-center"
+          className="lg:pt-4 pt-3 mb-0 font-inter font-medium lg:text-base text-sm text-limed-pruce text-center"
         >
           En Exclusive Games, ofrecemos una selección de más de 600 juegos de
           los principales desarrolladores, como Aristocrat, Amatic, EGT,

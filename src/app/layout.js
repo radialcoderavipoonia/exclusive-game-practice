@@ -12,7 +12,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <title>Exclusive Games</title>
       <body className={inter.className}>{children}</body>
     </html>
   );

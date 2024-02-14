@@ -57,11 +57,9 @@ const Footer = () => {
                 </li>
 
                 {value.link.map((subValue, subIndex) => (
-                  <li
-                    key={subIndex}
-                    className="flex items-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all"
-                  >
+                  <li key={subIndex}>
                     <Link
+                      className="flex items-center gap-2 opacity-70 text-white font-medium lg:text-base text-sm hover:opacity-100 duration-100 ease-in-out transition-all"
                       aria-label={subValue.content}
                       href={subValue.path}
                       rel="noopener noreferrer"
