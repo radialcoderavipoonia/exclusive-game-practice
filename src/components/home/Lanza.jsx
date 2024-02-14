@@ -6,7 +6,7 @@ const Lanza = () => {
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 xl:py-[150px] lg:py-20 py-12">
       {/* Background Image */}
       <div
-        className="bg-[url('/assets/images/background/lanza_image.webp')] bg-center bg-100  bg-no-repeat"
+        className="bg-[url('/assets/images/background/lanza_image.webp')] bg-center bg-cover  rounded-2xl border-oslo-gray-second border-[1px]  bg-no-repeat"
         data-aos="zoom-in"
         data-aos-duration="1000"
       >
