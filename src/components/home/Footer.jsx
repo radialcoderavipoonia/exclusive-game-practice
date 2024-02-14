@@ -37,7 +37,7 @@ const Footer = () => {
                   href={value.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className=" hover:scale-90 transition-all ease-linear duration-200"
+                  className="hover:scale-110 hover:shadow-back-to-top rounded-full transition-all ease-linear duration-200"
                   key={index}
                 >
                   {value.icon}
