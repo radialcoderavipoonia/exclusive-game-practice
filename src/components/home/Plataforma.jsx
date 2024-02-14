@@ -6,7 +6,7 @@ const Plataforma = () => {
     <div className="container xl:max-w-[1043px] mx-auto xl:px-0 px-3 xl:py-[150px] lg:py-20 py-10">
       {/* Background container */}
       <div
-        className="bg-[url('/assets/images/background/plataforma_image.webp')] mix-blend-screen lg:h-[308px] md:h-[248px] sm:h-[208px] sm:py-0 py-12 flex justify-center items-center bg-99 w-full bg-center bg-no-repeat"
+        className="bg-[url('/assets/images/background/plataforma.webp')] mix-blend-screen lg:h-[308px] md:h-[248px] sm:h-[208px] sm:py-0 py-12 flex justify-center items-center bg-99 w-full bg-center bg-no-repeat"
         data-aos="zoom-in"
       >
         <div className=" max-w-[552px] mx-auto px-4">

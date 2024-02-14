@@ -18,6 +18,8 @@ module.exports = {
           "radial-gradient(48.51% 51.68% at 50.39% 55.02%, #00000060 0%, #00000050 23%, #00000040 47%, #00000030 72%, #00000020 0%, #00000003 0%)",
         nuestrasOfertasBg:
           "linear-gradient(306.99deg, rgba(81, 200, 239, 0.04) -13.72%, rgba(122, 245, 122, 0.04) 102.02%)",
+        circleGradient:
+          "linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)",
       },
       boxShadow: {
         "elegirnos-box-shadow": "#357D6D 4px 4px",
@@ -40,10 +42,10 @@ module.exports = {
         "oslo-gray": "#80898D",
         "cod-gray": "#191919",
         "iron-secondary": "#CCCFD1",
-        "firefly":"#092423",
-        "oslo-gray-second":"#839090",
-        "blue-charcoal":"#02181e",
-        "bermuda":"#6AE3A9",
+        firefly: "#092423",
+        "oslo-gray-second": "#839090",
+        "blue-charcoal": "#02181e",
+        bermuda: "#6AE3A9",
       },
       fontSize: {
         "2xl": "32px",

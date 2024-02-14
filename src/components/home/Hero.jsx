@@ -8,7 +8,7 @@ const Hero = () => {
       {/* Background image */}
       <div
         id="home"
-        className="bg-[url('/assets/images/background/hero_image.webp')] bg-cover bg-no-repeat"
+        className="bg-[url('/assets/images/background/hero.webp')] bg-cover bg-no-repeat"
       >
         {/* Navigation bar */}
         <NavBar />

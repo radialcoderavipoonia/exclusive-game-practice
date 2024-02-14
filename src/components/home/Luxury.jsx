@@ -8,7 +8,7 @@ const Luxury = () => {
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 py-4">
       {/* Background */}
       <div
-        className="md:bg-[url('/assets/images/background/luxury_image.webp')] bg-[url('/assets/images/background/luxury_image_sm.webp')] rounded-2xl border-oslo-gray-second border-[1px] bg-center md:bg-100 bg-cover bg-no-repeat"
+        className="md:bg-[url('/assets/images/background/luxury.webp')] bg-[url('/assets/images/background/luxury_sm.webp')] rounded-2xl border-oslo-gray-second border-[1px] bg-center md:bg-100 bg-cover bg-no-repeat"
         data-aos="fade-up"
         data-aos-duration="800"
       >
