@@ -9,21 +9,15 @@ const CasinoNight = () => {
       id="choose"
       className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 md:py-20 pb-10 sm:mt-0 mt-[-100px]"
     >
-      {" "}
       {/* Container */}
       <div className="flex md:flex-row flex-col-reverse items-center md:gap-14 gap-8">
-        {" "}
         {/* Flex container */}
         <div className="max-w-[526px]" data-aos="fade-right">
-          {" "}
           {/* Text content */}
           <h2 className="text-dark-green md:text-start text-center leading-[100%] font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] mb-0">
             Por qué elegirnos {/* Heading */}
           </h2>
-          <p
-            className="mb-0 lg:pt-4 pt-3 font-inter md:text-start text-center font-medium lg:text-base text-sm text-
-limed-pruce"
-          >
+          <p className="mb-0 lg:pt-4 pt-3 font-inter md:text-start text-center font-medium lg:text-base text-sm text-limed-pruce">
             Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos
             todo lo invertido en fichas en la moneda que elijas. En Exclusive
             Games siempre sumamos nuevos juegos. Juegos crash, los juegos
@@ -31,9 +25,8 @@ limed-pruce"
             ganar ya! Creamos tu plataforma en solo 2 semanas. {/* Paragraph */}
           </p>
           <div className="mt-6 flex md:justify-start justify-center">
-            {" "}
             {/* Button */}
-            <CommonButtonGradient content="Aprende más" />{" "}
+            <CommonButtonGradient content="Aprende más" />
             {/* CommonButtonGradient component */}
           </div>
         </div>

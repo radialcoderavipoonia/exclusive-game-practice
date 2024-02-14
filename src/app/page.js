@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import Hero from "@/components/home/Hero";
-import "./common.css";
 import Nuestra from "@/components/home/Nuestra";
 import Marca from "@/components/home/Marca";
 import Slots from "@/components/home/Slots";

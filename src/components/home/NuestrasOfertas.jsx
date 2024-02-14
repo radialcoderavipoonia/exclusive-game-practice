@@ -65,7 +65,6 @@ const NuestrasOfertas = () => {
                     >
                       {/* Icon */}
                       <p>
-                        {" "}
                         <RightIcon />
                       </p>
                       {/* Feature description */}
