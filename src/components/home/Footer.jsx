@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <div className="bg-black relative overflow-hidden">
       {/* Decorative circles */}
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[58px] bottom-[0%] end-[-6%] translate-y-[-50%] pointer-events-none"></div>
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[58px] bottom-[-30%] start-[-6%] translate-y-[-50%] pointer-events-none"></div>
+      <div className=" absolute bg-circleGradient w-[154px] h-[154px] rounded-full blur-[58px] bottom-[0%] end-[-6%] translate-y-[-50%] pointer-events-none"></div>
+      <div className=" absolute bg-circleGradient w-[154px] h-[154px] rounded-full blur-[58px] bottom-[-30%] start-[-6%] translate-y-[-50%] pointer-events-none"></div>
 
       {/* Container */}
       <div className="container max-w-[1152px] mx-auto px-3 md:pt-16 sm:pt-10 pt-7 sm:pb-10 pb-4">

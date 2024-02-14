@@ -19,7 +19,7 @@ module.exports = {
         nuestrasOfertasBg:
           "linear-gradient(306.99deg, rgba(81, 200, 239, 0.04) -13.72%, rgba(122, 245, 122, 0.04) 102.02%)",
         circleGradient:
-          "linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)",
+          "linear-gradient(306.99deg, #51C8EF -13.72%, #7AF57A 102.02%)",
       },
       boxShadow: {
         "elegirnos-box-shadow": "#357D6D 4px 4px",

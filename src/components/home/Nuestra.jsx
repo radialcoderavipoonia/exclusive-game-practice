@@ -12,7 +12,7 @@ const Nuestra = () => {
         className="bg-[url('/assets/images/background/nuestra.webp')] md:bg-100 bg-cover bg-center bg-no-repeat mt-[-1px] relative z-40"
       >
         <div className="h-[15px] w-full bg-blue-charcoal blur-md"></div>
-        <div className="w-[384px] h-[284px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 md:hidden block rounded-full blur-[50px] top-[-5%] left-[-20%] z-10"></div>
+        <div className="w-[384px] h-[284px] absolute bg-circleGradient opacity-50 md:hidden block rounded-full blur-[50px] top-[-5%] left-[-20%] z-10"></div>
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
           <div className="xl:pt-[74px] lg:pb-[313px] md:pb-48 sm:pb-52 pb-44">
             {/* Main content */}

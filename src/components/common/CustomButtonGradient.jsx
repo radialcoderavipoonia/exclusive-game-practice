@@ -10,7 +10,7 @@ const CommonButtonGradient = (props) => {
       {/* Button element with gradient background */}
       <button
         aria-label={content}
-        className={`font-inter font-bold lg:text-base text-sm whitespace-nowrap bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] text-black  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold lg:text-base text-sm whitespace-nowrap bg-circleGradient text-black  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {content} {/* Displaying the content */}
       </button>

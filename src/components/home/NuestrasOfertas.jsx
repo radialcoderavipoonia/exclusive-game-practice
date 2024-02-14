@@ -24,7 +24,7 @@ const NuestrasOfertas = () => {
           data-aos-duration="800"
         >
           {/* shadow circle  */}
-          <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[48px] top-[30%] start-[10%] translate-y-[-50%] pointer-events-none lg:block hidden"></div>
+          <div className=" absolute bg-circleGradient w-[154px] h-[154px] rounded-full blur-[48px] top-[30%] start-[10%] translate-y-[-50%] pointer-events-none lg:block hidden"></div>
           <div className="flex md:flex-row flex-col lg:pt-14 lg:pb-8 py-8 lg:px-10 px-4 items-center lg:gap-[22px] gap-3">
             {/* Left side */}
             <div className="relative">
@@ -83,7 +83,7 @@ const NuestrasOfertas = () => {
           </div>
         </div>
       </div>
-      <div className="w-[484px] h-[484px] absolute xl:block hidden bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] top-[-25%] right-[-20%]"></div>
+      <div className="w-[484px] h-[484px] absolute xl:block hidden bg-circleGradient opacity-50 rounded-full blur-[200px] top-[-25%] right-[-20%]"></div>
     </div>
   );
 };

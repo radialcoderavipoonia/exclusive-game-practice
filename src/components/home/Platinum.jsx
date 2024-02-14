@@ -55,8 +55,8 @@ const Platinum = () => {
           </div>
         </div>
       </div>
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] top-[-15%] left-[-20%] xl:block hidden"></div>
-      <div className="w-[484px] h-[484px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 rounded-full blur-[200px] bottom-[-35%] right-[-25%] xl:block hidden"></div>
+      <div className="w-[484px] h-[484px] absolute bg-circleGradient opacity-50 rounded-full blur-[200px] top-[-15%] left-[-20%] xl:block hidden"></div>
+      <div className="w-[484px] h-[484px] absolute bg-circleGradient opacity-50 rounded-full blur-[200px] bottom-[-35%] right-[-25%] xl:block hidden"></div>
     </div>
   );
 };
