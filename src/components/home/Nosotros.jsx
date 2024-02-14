@@ -12,7 +12,7 @@ const Nosotros = () => {
         Ellos eligieron apostar con nosotros
       </h2>
       {/* Container for client images */}
-      <div className="flex justify-center gap-3 sm:gap-6 items-center flex-wrap pt-9">
+      <div className="flex justify-center gap-5 sm:gap-6 items-center flex-wrap pt-9">
         {/* Mapping through the clients data */}
         {eligieron.map((value, index) => {
           return (

@@ -50,7 +50,7 @@ const Slots = () => {
                   width={364}
                   height={265}
                   alt="slots cards images"
-                  className="xl:w-[364px] xl:h-[265px] sm:w-[264px] sm:h-[165px] border-[2px] border-transparent"
+                  className="xl:w-[364px] xl:h-[265px] sm:w-[294px] sm:h-[165px] border-[2px] border-transparent"
                 />
                 {/* Hover effect layer */}
                 <Image
@@ -58,7 +58,7 @@ const Slots = () => {
                   width={364}
                   height={265}
                   alt="slots cards layer"
-                  className="absolute top-0 xl:w-[364px] xl:h-[265px] md:w-[264px] md:h-[165px] start-0 w-full h-full z-10 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out border-[2px] border-bermuda rounded-lg"
+                  className="absolute top-0 xl:w-[364px] xl:h-[265px] sm:w-[294px] sm:h-[165px] start-0 w-full h-full z-10 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out border-[2px] border-bermuda rounded-lg"
                 />
                 {/* Button */}
                 <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] z-20 opacity-0 group-hover/items:opacity-100 transition-all duration-300 ease-in-out">

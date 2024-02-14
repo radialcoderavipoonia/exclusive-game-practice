@@ -225,7 +225,7 @@ export const faqData = [
 ];
 export const footerLinks = [
   {
-    tittle: "Menú principal",
+    title: "Menú principal",
     link: [
       { content: "Hogar", path: "#home" },
       { content: "Misión", path: "#mission" },
@@ -235,7 +235,7 @@ export const footerLinks = [
     ],
   },
   {
-    tittle: "Atención al cliente",
+    title: "Atención al cliente",
     link: [
       { content: "¿Necesitas ayuda?", path: "#faq" },
       { content: "política de privacidad", path: "#slots" },
@@ -243,7 +243,7 @@ export const footerLinks = [
     ],
   },
   {
-    tittle: "Ponerse en contacto",
+    title: "Ponerse en contacto",
     link: [
       {
         content: "juegosexclusivos@gmail.com",

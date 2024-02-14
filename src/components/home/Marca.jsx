@@ -5,7 +5,7 @@ import Image from "next/image";
 // Define the Marca component
 const Marca = () => {
   return (
-    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 xl:pb-24 lg:pb-16 pb-12 sm:mt-0 mt-[-50px]">
+    <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 xl:pb-24 lg:pb-16 pb-12 ">
       {/* Title of the section */}
       <p className="text-center font-anton font-normal xl:text-3xl lg:text-[36px] text-[30px] text-dark-green mb-0">
         Nuestros Atributos de Marca

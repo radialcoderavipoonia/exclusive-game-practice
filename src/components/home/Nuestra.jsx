@@ -14,7 +14,7 @@ const Nuestra = () => {
         <div className="h-[15px] w-full bg-blue-charcoal blur-md"></div>
         <div className="w-[384px] h-[284px] absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] opacity-50 md:hidden block rounded-full blur-[50px] top-[-5%] left-[-20%] z-10"></div>
         <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
-          <div className="xl:pt-[74px] lg:pb-[313px] md:pb-48 pb-52">
+          <div className="xl:pt-[74px] lg:pb-[313px] md:pb-48 sm:pb-52 pb-44">
             {/* Main content */}
             <div className="flex md:flex-row flex-col justify-center items-center xl:gap-16 gap-8">
               {/* First column */}
@@ -25,7 +25,7 @@ const Nuestra = () => {
                   width={538}
                   height={536}
                   alt="poker with friends image"
-                  className="lg:w-[538px] w-[438px] lg:h-[536px] h-[370px]"
+                  className="lg:w-[538px] w-[438px] lg:h-[536px] h-[370px] relative z-40"
                   data-aos="zoom-in"
                   data-aos-delay="200"
                 />

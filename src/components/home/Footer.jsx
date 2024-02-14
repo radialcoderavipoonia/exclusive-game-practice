@@ -53,7 +53,7 @@ const Footer = () => {
                 key={index}
               >
                 <li className=" font-inter font-bold lg:text-base text-sm text-white mb-2">
-                  {value.tittle}
+                  {value.title}
                 </li>
 
                 {value.link.map((subValue, subIndex) => (

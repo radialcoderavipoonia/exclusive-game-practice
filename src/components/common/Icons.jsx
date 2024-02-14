@@ -1223,3 +1223,55 @@ export const MenuIcon = () => {
     </svg>
   );
 };
+export const GradientButtonOutline = () => {
+  return (
+    <svg
+      width="107"
+      height="28"
+      viewBox="0 0 107 28"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {/* Path element for decorative stroke */}
+      <path
+        d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5"
+        stroke="url(#paint0_linear_1706_11)"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+      {/* Defining linear gradient */}
+      <defs>
+        <linearGradient
+          id="paint0_linear_1706_11"
+          x1="134.466"
+          y1="25.6913"
+          x2="113.531"
+          y2="-37.3975"
+          gradientUnits="userSpaceOnUse"
+        >
+          {/* Gradient stops */}
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
+        </linearGradient>
+      </defs>
+    </svg>
+  );
+};
+export const ButtonOutline = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="106"
+      height="28"
+      viewBox="0 0 106 28"
+      fill="none"
+    >
+      <path
+        d="M1 1C1 15.3594 12.6406 27 27 27H105"
+        stroke="white"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+};
